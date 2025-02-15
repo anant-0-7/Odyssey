@@ -3,6 +3,8 @@ import instagram from "../assets/instagram.svg";
 import twitter from "../assets/twitter.svg";
 import linkedin from "../assets/linkedin.svg";
 
+import MapComponent from "./maps";
+
 const VenueSection = () => {
   return (
     <div className="p-8 bg-[#FAAE5C] flex h-min-[1000]">
@@ -55,13 +57,13 @@ const VenueSection = () => {
 
         {/* Google Map Container */}
         <div className="w-full max-w-4xl h-96 bg-gray-100 rounded-xl border-2 border-[#E0E0E0]">
-          {/* <GoogleMapComponent /> */}
+          <MapComponent />
         </div>
 
         {/* Venue Address */}
         <div className="text-[#AD3535] mt-6 space-y-1">
           <p className="font-semibold text-lg">
-            INDOAPRASTHA INSTITUTE OF INFORMATION TECHNOLOGY DELHI
+            INDRAPRASTHA INSTITUTE OF INFORMATION TECHNOLOGY DELHI
           </p>
           <p className="text-sm">OKHLA INDUSTRIAL ESTATE PHASE III</p>
           <p className="text-sm">NEAR GOVIND PURI METRO STATION</p>
