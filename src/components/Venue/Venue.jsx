@@ -1,4 +1,4 @@
-import Castle from "./castle";
+import Castle from "./Castle.jsx";
 import instagram from "../assets/instagram.svg";
 import twitter from "../assets/twitter.svg";
 import linkedin from "../assets/linkedin.svg";

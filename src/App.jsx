@@ -1,14 +1,13 @@
 import { useState } from 'react'
-import './App.css'
-import VenueSection from './(components)/venue'
+import React from 'react'
 
 
 function App() {
 
   return (
     <>
-      <h1>Odyssey Website</h1>
-      <VenueSection/>
+      <h1 className = "bg-green-600 underline">Odyssey Website</h1>
+ 
     </>
   )
 }
