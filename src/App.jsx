@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import React from 'react'
+import Home from './components/Home/Home'
 
 
 function App() {
 
   return (
     <>
-      <h1 className = "bg-green-600 underline">Odyssey Website</h1>
+      <Home />
  
     </>
   )
