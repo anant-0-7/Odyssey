@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'OdysseyFont'; 
+  src: url('../../assets/fonts.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.odyssey-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw; 
+  height: 100vh; 
+  background-color: #FFCC6D;
+}
+
+.midl-image {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translateX(-50%);
+  width: auto;
+  height: 30vh; 
+}
+
+.center-image {
+  font-family: 'OdysseyFont', sans-serif;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #AD3535;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.midr-image {
+  font-family: 'OdysseyFont', sans-serif;
+  position: absolute;
+  top: 35%;
+  left: 65%;
+  right: 5%;
+  transform: translateX(-50%);
+  color: #AD3535;
+  width: 75vh;
+  height: 30vh; 
+  text-align: left;
+  font-size: 1.99vw;
+}
+.topl-image {
+  position: absolute;
+  top: -5%;
+  left: 9%;
+  transform: translateX(-50%);
+  width: auto;
+  height: 50vh; 
+}
+
+.topr-image {
+  position: absolute;
+  top: -5%;
+  left: 90%;
+  transform: translateX(-50%);
+  width: auto;
+  height: 50vh; 
+}
+.bottomr-image {
+  position: absolute;
+  top: 80%;
+  left: 92%;
+  transform: translateX(-50%);
+  width: auto;
+  height: 30vh; 
+}
+
