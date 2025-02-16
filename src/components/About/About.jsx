@@ -1,11 +1,21 @@
-import { StrictMode } from 'react';
+import { StrictMode, useEffect } from 'react';
 import "./About.css";
 import branch from '../../assets/branch.svg';
 import branchLeft from '../../assets/branchLeft.svg';
 import grass from '../../assets/grass.svg';
 import logo from '../../assets/image.svg'
+import React from 'react';
 
-const OdysseyAbout = () => {
+const About = () => {
+
+  useEffect(()=> {
+    document.body.style.overflow = 'hidden'
+
+    return () => {
+      document.body.style.overflow = 'auto'
+  };
+  }, [])
+
   return (
     <section className="odyssey-container">
       <div className="center-image">
@@ -25,4 +35,4 @@ const OdysseyAbout = () => {
   );
 };
 
-export default OdysseyAbout;
+export default About;

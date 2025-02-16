@@ -15,7 +15,7 @@ export default function Navbar() {
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/events">Events</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/sponsors">Sponsors</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/register">Register</Link>
-            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/contact">Contact</Link>
+            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/about">About</Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -33,7 +33,7 @@ export default function Navbar() {
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/events">Events</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/sponsors">Sponsors</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/register">Register</Link>
-            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/contact">Contact</Link>
+            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/about">About</Link>
           </div>
         )}
       </div>
