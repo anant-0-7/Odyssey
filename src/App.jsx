@@ -1,6 +1,5 @@
-import { useState } from 'react'
 import './App.css'
-import VenueSection from './(components)/venue'
+import VenueSection from './(components)/Venue'
 
 
 function App() {
