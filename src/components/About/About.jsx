@@ -1,7 +1,7 @@
 import { StrictMode, useEffect } from 'react';
 import "./About.css";
 import branch from '../../assets/branch.svg';
-import branchLeft from '../../assets/branchLeft.svg';
+import branchLeft from '../../assets/branchleft.svg';
 import grass from '../../assets/grass.svg';
 import logo from '../../assets/image.svg'
 import React from 'react';
