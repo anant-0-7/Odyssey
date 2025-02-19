@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Navbar from "./NavBar";
+import Navbar from "./Navbar";
 import Footer from "./Footer";
 import tree from "../../assets/tree.svg";
 import logo from "../../assets/odyssey.svg";
