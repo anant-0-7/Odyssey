@@ -1,9 +1,20 @@
 import Castle from "./Castle";
-import instagram from "../assets/instagram.svg";
-import twitter from "../assets/twitter.svg";
-import linkedin from "../assets/linkedin.svg";
+import instagram from "../../assets/instagram.svg";
+import twitter from "../../assets/twitter.svg";
+import linkedin from "../../assets/linkedin.svg";
+import {useEffect} from 'react';
 
 const Venue = () => {
+
+  useEffect(()=> {
+      document.body.style.overflow = 'hidden'
+  
+      return () => {
+        document.body.style.overflow = 'auto'
+    };
+    }, [])
+
+
   return (
     <div className="p-8 bg-[#FAAE5C] flex h-min-[1000]">
       {/* Castle on the left */}
