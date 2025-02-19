@@ -3,7 +3,7 @@ import instagram from "../assets/instagram.svg";
 import twitter from "../assets/twitter.svg";
 import linkedin from "../assets/linkedin.svg";
 
-const VenueSection = () => {
+const Venue = () => {
   return (
     <div className="p-8 bg-[#FAAE5C] flex h-min-[1000]">
       {/* Castle on the left */}
@@ -77,4 +77,4 @@ const VenueSection = () => {
   );
 };
 
-export default VenueSection;
+export default Venue;
