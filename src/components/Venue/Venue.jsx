@@ -4,7 +4,7 @@ import twitter from "../../assets/twitter.svg";
 import linkedin from "../../assets/linkedin.svg";
 import {useEffect} from 'react';
 
-const Venue = () => {
+export default function Venue() {
 
   useEffect(()=> {
       document.body.style.overflow = 'hidden'
@@ -88,4 +88,3 @@ const Venue = () => {
   );
 };
 
-export default Venue;
