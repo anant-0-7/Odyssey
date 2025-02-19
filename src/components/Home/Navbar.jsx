@@ -31,7 +31,7 @@ export default function Navbar() {
           <div className="md:hidden flex flex-col items-center space-y-2 pb-4">
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Home</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/events">Events</Link>
-            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/sponsors">Sponsors</Link>
+            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/venue">Venue</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/register">Register</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/about">About</Link>
           </div>
