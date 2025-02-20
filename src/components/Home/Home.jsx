@@ -3,16 +3,11 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import tree from "../../assets/tree.svg";
 import logo from "../../assets/odyssey.svg";
+import Venue from "../Venue/Venue";
 
 export default function Home() {
 
-  useEffect(()=> {
-    document.body.style.overflow = 'hidden'
 
-    return () => {
-      document.body.style.overflow = 'auto'
-  };
-  }, [])
 
   return (
     <>
@@ -47,6 +42,8 @@ export default function Home() {
         <Footer />
 
       </div>
+
+      <Venue />
     </>
   );
 }

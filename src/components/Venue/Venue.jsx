@@ -6,17 +6,11 @@ import {useEffect} from 'react';
 
 export default function Venue() {
 
-  useEffect(()=> {
-      document.body.style.overflow = 'hidden'
-  
-      return () => {
-        document.body.style.overflow = 'auto'
-    };
-    }, [])
+
 
 
   return (
-    <div className="p-8 bg-[#FAAE5C] flex h-min-[1000]">
+    <div className="p-8 bg-[#FAAE5C] flex h-min-[1000] mt-[-60px]">
       {/* Castle on the left */}
       <div className="h-max absolute left-0 top-25">
         <Castle className="left-0 resize" />
