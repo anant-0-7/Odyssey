@@ -1,14 +1,19 @@
-import Castle from "./Castle.jsx";
-import instagram from "../assets/instagram.svg";
-import twitter from "../assets/twitter.svg";
-import linkedin from "../assets/linkedin.svg";
+import Castle from "./Castle";
+import instagram from "../../assets/instagram.svg";
+import twitter from "../../assets/twitter.svg";
+import linkedin from "../../assets/linkedin.svg";
+import {useEffect} from 'react';
 
-const VenueSection = () => {
+export default function Venue() {
+
+
+
+
   return (
-    <div className="p-8 bg-[#FAAE5C] flex h-min-[1000]">
+    <div className="p-8 bg-[#FAAE5C] flex h-min-[1000] mt-[-60px]">
       {/* Castle on the left */}
       <div className="h-max absolute left-0 top-25">
-        <Castle className="left-0 resize"/>
+        <Castle className="left-0 resize" />
       </div>
       <div className="w-2/6 h-max">
         <svg></svg>
@@ -54,14 +59,20 @@ const VenueSection = () => {
         </h2>
 
         {/* Google Map Container */}
-        <div className="w-full max-w-4xl h-96 bg-gray-100 rounded-xl border-2 border-[#E0E0E0]">
-          {/* <GoogleMapComponent /> */}
+        <div className="w-full max-w-4xl aspect-[16/9] bg-gray-100 rounded-xl border-2 border-[#E0E0E0] overflow-hidden">
+          <iframe
+            className="w-full h-full"
+            src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d876.1868692322348!2d77.271162!3d28.547309!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDMyJzUwLjYiTiA3N8KwMTYnMTYuOCJF!5e0!3m2!1sen!2sus!4v1739805379202!5m2!1sen!2sus"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
 
         {/* Venue Address */}
         <div className="text-[#AD3535] mt-6 space-y-1">
           <p className="font-semibold text-lg">
-            INDOAPRASTHA INSTITUTE OF INFORMATION TECHNOLOGY DELHI
+            INDRAPRASTHA INSTITUTE OF INFORMATION TECHNOLOGY DELHI
           </p>
           <p className="text-sm">OKHLA INDUSTRIAL ESTATE PHASE III</p>
           <p className="text-sm">NEAR GOVIND PURI METRO STATION</p>
@@ -71,4 +82,3 @@ const VenueSection = () => {
   );
 };
 
-export default VenueSection;

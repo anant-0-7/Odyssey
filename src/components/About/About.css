@@ -15,7 +15,7 @@
 
 .midl-image {
   position: absolute;
-  top: 40%;
+  top: 140%;
   left: 20%;
   transform: translateX(-50%);
   width: auto;
@@ -25,7 +25,7 @@
 .center-image {
   font-family: 'OdysseyFont', sans-serif;
   position: absolute;
-  top: 5%;
+  top: 115%;
   left: 50%;
   transform: translateX(-50%);
   color: #AD3535;
@@ -36,7 +36,7 @@
 .midr-image {
   font-family: 'OdysseyFont', sans-serif;
   position: absolute;
-  top: 35%;
+  top: 135%;
   left: 65%;
   right: 5%;
   transform: translateX(-50%);
@@ -48,7 +48,7 @@
 }
 .topl-image {
   position: absolute;
-  top: -5%;
+  top: 95%;
   left: 9%;
   transform: translateX(-50%);
   width: auto;
@@ -57,7 +57,7 @@
 
 .topr-image {
   position: absolute;
-  top: -5%;
+  top: 95%;
   left: 90%;
   transform: translateX(-50%);
   width: auto;
@@ -65,7 +65,7 @@
 }
 .bottomr-image {
   position: absolute;
-  top: 80%;
+  top: 180%;
   left: 92%;
   transform: translateX(-50%);
   width: auto;

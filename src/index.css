@@ -2,7 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    height: 100%;
-    overflow-y: hidden;
- }

@@ -1,11 +1,27 @@
-import { StrictMode } from 'react';
+import { StrictMode, useEffect } from 'react';
 import "./About.css";
+import { useLocation } from 'react-router-dom';
 import branch from '../../assets/branch.svg';
-import branchLeft from '../../assets/branchLeft.svg';
+import branchLeft from '../../assets/branchleft.svg';
 import grass from '../../assets/grass.svg';
 import logo from '../../assets/image.svg'
+import React from 'react';
 
-const OdysseyAbout = () => {
+const About = () => {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === '/about') {
+      document.body.style.overflow = 'hidden';
+    }
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [location.pathname]);
+
+
   return (
     <section className="odyssey-container">
       <div className="center-image">
@@ -25,4 +41,4 @@ const OdysseyAbout = () => {
   );
 };
 
-export default OdysseyAbout;
+export default About;

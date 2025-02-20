@@ -1,10 +1,15 @@
-import React from "react";
-import Navbar from "./NavBar";
+import React, { useEffect } from "react";
+import Navbar from "./Navbar";
 import Footer from "./Footer";
 import tree from "../../assets/tree.svg";
 import logo from "../../assets/odyssey.svg";
+import Venue from "../Venue/Venue";
+import About from "../About/About";
 
 export default function Home() {
+
+
+
   return (
     <>
       <Navbar />
@@ -38,6 +43,8 @@ export default function Home() {
         <Footer />
 
       </div>
+      <About />
+      <Venue />
     </>
   );
 }
