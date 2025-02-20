@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import tree from "../../assets/tree.svg";
 import logo from "../../assets/odyssey.svg";
 import Venue from "../Venue/Venue";
+import About from "../About/About";
 
 export default function Home() {
 
@@ -32,7 +33,7 @@ export default function Home() {
 
             {/* Centered Content - Adjusted positioning */}
             <div className="text-center z-10 pt-20">
-            <img src={logo} alt="Logo" className="w-32 mx-auto mb-2" />
+            <img src={logo} alt="Logo" className="w-20 mx-auto mb-2" />
             <h1 className="text-5xl font-bold text-blue-950">Odyssey'25</h1>
             <h2 className="text-2xl font-bold text-blue-950 mt-1">8-9th March</h2>
             </div>
@@ -42,7 +43,7 @@ export default function Home() {
         <Footer />
 
       </div>
-
+      <About />
       <Venue />
     </>
   );

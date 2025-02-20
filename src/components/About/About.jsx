@@ -1,5 +1,6 @@
 import { StrictMode, useEffect } from 'react';
 import "./About.css";
+import { useLocation } from 'react-router-dom';
 import branch from '../../assets/branch.svg';
 import branchLeft from '../../assets/branchleft.svg';
 import grass from '../../assets/grass.svg';
@@ -8,16 +9,12 @@ import React from 'react';
 
 const About = () => {
 
-  useEffect(()=> {
-    document.body.style.overflow = 'hidden'
+  const location = useLocation();
 
-    return () => {
-      document.body.style.overflow = 'auto'
-  };
-  }, [])
+
 
   return (
-    <section className="odyssey-container">
+    <section className="odyssey-container mt-[-60px]">
       <div className="center-image">
         <h1 className="odyssey-title">About Odyssey</h1>
       </div>
