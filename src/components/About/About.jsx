@@ -14,7 +14,7 @@ const About = () => {
 
 
   return (
-    <section className="odyssey-container mt-[-60px]">
+    <section className="odyssey-container mt-[-100px]">
       <div className="center-image">
         <h1 className="odyssey-title">About Odyssey</h1>
       </div>

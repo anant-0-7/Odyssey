@@ -2,9 +2,11 @@ import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import tree from "../../assets/tree.svg";
-import logo from "../../assets/odyssey.svg";
+import logo from "../../assets/odyssey2.svg";
 import Venue from "../Venue/Venue";
 import About from "../About/About";
+import crown from "../../assets/amit_trivedi.png";
+import avatar from "../../assets/avatar.png" // Import the avatar image
 
 export default function Home() {
 
@@ -32,11 +34,30 @@ export default function Home() {
             />
 
             {/* Centered Content - Adjusted positioning */}
-            <div className="text-center z-10 pt-20">
+            <div className="text-center z-10 pt-20 mt-[-70px]">
             <img src={logo} alt="Logo" className="w-20 mx-auto mb-2" />
             <h1 className="text-5xl font-bold text-blue-950">Odyssey'25</h1>
             <h2 className="text-2xl font-bold text-blue-950 mt-1">8-9th March</h2>
             </div>
+
+            <div className="absolute bottom-[40px] left-1/2 transform -translate-x-1/2 z-0 flex items-center space-x-4">
+            <img
+              src={avatar}
+              alt="Left Avatar"
+              className="w-[150px] max-w-none translate-y-24"
+            />
+            <img
+              src={crown}
+              alt="Crown Icon"
+              className="w-[300px] max-w-none"
+            />
+            <img
+              src={avatar}
+              alt="Right Avatar"
+              className="w-[150px] max-w-none translate-y-24"
+            />
+          </div>
+            
         </div>
 
         {/* Footer */}

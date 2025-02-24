@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        custom: ["OdysseyFont", "sans-serif"], // Use this in Tailwind classes
+      },
+    },
   },
   plugins: [],
 }
