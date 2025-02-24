@@ -6,13 +6,14 @@ import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } 
 import Home from './components/Home/Home.jsx'
 import About from './components/About/About.jsx'
 import Venue from './components/Venue/Venue.jsx'
-
+import Spons from './components/Spons/Spons.jsx'
 const route = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path = "/venue" element={<Venue />} />
+      <Route path = "/spons" element={<Spons />} />
     </>
   )
 );
