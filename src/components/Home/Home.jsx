@@ -44,17 +44,17 @@ export default function Home() {
             <img
               src={avatar}
               alt="Left Avatar"
-              className="w-[100px] md:w-[150px] max-w-none translate-y-24"
+              className="w-[100px] md:w-[160px] max-w-none translate-y-24"
             />
             <img
               src={crown}
               alt="Crown Icon"
-              className="w-[200px] md:w-[300px] max-w-none"
+              className="w-[200px] md:w-[350px] max-w-none"
             />
             <img
               src={avatar}
               alt="Right Avatar"
-              className="w-[100px] md:w-[150px] max-w-none translate-y-24"
+              className="w-[100px] md:w-[160px] max-w-none translate-y-24"
             />
           </div>
             
