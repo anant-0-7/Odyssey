@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import tree from "../../assets/tree.svg";
-import logo from "../../assets/odyssey.svg";
+import logo from "../../assets/odyssey2.svg";
 import Venue from "../Venue/Venue";
 import About from "../About/About";
 
