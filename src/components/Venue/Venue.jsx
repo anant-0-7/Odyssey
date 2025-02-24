@@ -10,9 +10,9 @@ export default function Venue() {
 
 
   return (
-    <div className="p-8 bg-[#FAAE5C] flex h-min-[1000] mt-[-60px]">
+    <div className="p-8 bg-[#FAAE5C] flex h-min-[1000] mt-[-60px] font-custom">
       {/* Castle on the left */}
-      <div className="h-max absolute left-0 top-25">
+      <div className="h-max absolute left-0 top-25 hidden lg:block">
         <Castle className="left-0 resize" />
       </div>
       <div className="w-2/6 h-max">
@@ -21,13 +21,13 @@ export default function Venue() {
 
       {/* Main content centered */}
       <div className="flex flex-col justify-center space-y-4 mt-15 pr-8 resize z-30">
-        <h1 className="text-4xl font-bold text-[#AD3535]">VENUE</h1>
+        <h1 className="text-8xl font-medium text-[#AD3535]">VENUE</h1>
 
         <div className="space-y-2 max-w-2xl">
-          <p className="text-lg text-[#AD3535]">
+          <p className="text-3xl text-[#AD3535]">
             FOLLOW US ON SOCIAL MEDIA TO STAY UPDATED ON ALL THE EXCITING
           </p>
-          <p className="text-lg text-[#AD3535]">
+          <p className="text-3xl text-[#AD3535]">
             DEVELOPMENTS AND SNEAK PEEKS LEADING UP TO THE GRAND EVENT
           </p>
         </div>
@@ -71,11 +71,11 @@ export default function Venue() {
 
         {/* Venue Address */}
         <div className="text-[#AD3535] mt-6 space-y-1">
-          <p className="font-semibold text-lg">
+          <p className="font-semibold text-2xl">
             INDRAPRASTHA INSTITUTE OF INFORMATION TECHNOLOGY DELHI
           </p>
-          <p className="text-sm">OKHLA INDUSTRIAL ESTATE PHASE III</p>
-          <p className="text-sm">NEAR GOVIND PURI METRO STATION</p>
+          <p className="text-lg">OKHLA INDUSTRIAL ESTATE PHASE III</p>
+          <p className="text-lg">NEAR GOVIND PURI METRO STATION</p>
         </div>
       </div>
     </div>

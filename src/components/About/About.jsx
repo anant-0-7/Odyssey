@@ -27,7 +27,7 @@ const About = () => {
       </div>
       <img src={branch} alt="Decorative branch" className="topr-image" />
       <img src={branchLeft} alt="Decorative branch" className="topl-image" />
-      <img src={grass} alt="Decorative grass" className="bottomr-image" />
+      <img src={grass} alt="Decorative grass" className="bottomr-image hidden lg:block" />
     </section>
   );
 };

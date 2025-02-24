@@ -23,14 +23,14 @@ export default function Home() {
             <img
             src={tree}
             alt="Left SVG"
-            className="h-full absolute left-0 top-0  transform scale-x-[-1] hidden md:block z-20"
+            className="h-full absolute left-0 top-0  transform scale-x-[-1] hidden lg:block z-20"
             />
 
             {/* Right SVG (Normal) - Hidden on small screens */}
             <img
             src={tree}
             alt="Right SVG"
-            className="absolute right-0 top-0 h-full hidden md:block z-20"
+            className="absolute right-0 top-0 h-full hidden lg:block z-20"
             />
 
             {/* Centered Content - Adjusted positioning */}
