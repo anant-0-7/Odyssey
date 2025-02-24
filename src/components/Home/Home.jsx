@@ -23,14 +23,14 @@ export default function Home() {
             <img
             src={tree}
             alt="Left SVG"
-            className="h-full absolute left-0 top-0  transform scale-x-[-1] hidden lg:block z-20"
+            className="h-full absolute left-0 top-0  transform scale-x-[-1] hidden lg:block z-20 animate-slideFromLeft"
             />
 
             {/* Right SVG (Normal) - Hidden on small screens */}
             <img
             src={tree}
             alt="Right SVG"
-            className="absolute right-0 top-0 h-full hidden lg:block z-20"
+            className="absolute right-0 top-0 h-full hidden lg:block z-20 animate-slideFromRight"
             />
 
             {/* Centered Content - Adjusted positioning */}
@@ -44,19 +44,22 @@ export default function Home() {
             <img
               src={avatar}
               alt="Left Avatar"
-              className="w-[100px] md:w-[210px] max-w-none translate-y-24"
+              className="w-[100px] md:w-[175px] max-w-none translate-y-24"
+              style={{ animationDelay: "0.2s" }}
             />
             <img
               src={crown}
               alt="Crown Icon"
-              className="w-[200px] md:w-[400px] max-w-none"
+              className="w-[200px] md:w-[310px] max-w-none mx-0 animate-slideFromBottom"
+              
             />
             <img
               src={avatar}
               alt="Right Avatar"
-              className="w-[100px] md:w-[210px] max-w-none translate-y-24"
+              className="w-[100px] md:w-[175px] max-w-none translate-y-24"
+              style={{ animationDelay: "0.2s" }}
             />
-          </div>
+          </div>  
             
         </div>
 
