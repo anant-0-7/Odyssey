@@ -5,6 +5,7 @@ import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } 
 import Home from './components/Home/Home.jsx'
 import Event from './components/Events/Events.jsx'
 import Layout from './components/Layout/Layout.jsx'
+import Contact from './components/Contact/Contact.jsx'
 
 
 const route = createBrowserRouter(
@@ -12,9 +13,8 @@ const route = createBrowserRouter(
     <>
       <Route path="/" element={<Layout />} >
       <Route path="" element={<Home />} />
-      <Route path = "events" element={<Event />} />
-
-
+      <Route path = "/events" element={<Event />} />
+      <Route path = "/contact" element={<Contact />} />
       </Route>
 
 
