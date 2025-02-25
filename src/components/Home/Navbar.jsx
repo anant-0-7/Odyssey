@@ -12,7 +12,7 @@ export default function Navbar() {
           {/* Navbar Links (Desktop) */}
           <div className="hidden md:flex space-x-20">
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Home</Link>
-            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Events</Link>
+            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/events">Events</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Venue</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Register</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">About</Link>

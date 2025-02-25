@@ -15,7 +15,6 @@ export default function Home() {
 
   return (
     <>
-      <Navbar />
 
       {/* Main Section */}
       <div className=" w-auto h-screen bg-[#FDFEC4] overflow-hidden" >

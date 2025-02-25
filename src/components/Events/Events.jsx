@@ -36,7 +36,6 @@ const EventsSection = () => (
 export default function Home() {
   return (
     <>
-      <Navbar />
       <div className="bg-[#FDFEC4] ">
         <div className="h-5/6 relative flex flex-col items-center">
           <img src={logo} alt="Logo" className="w-80 mx-auto mb-2 " />
