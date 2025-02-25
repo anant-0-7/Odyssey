@@ -6,7 +6,7 @@ import footer from "../../assets/FOOTER.png";
 
 const EventCard = () => (
   <div
-    className=" text-white p-4  rounded-3xl shadow-lg flex flex-col items-center"
+    className=" text-white p-4  rounded-3xl shadow-lg flex flex-col items-center transition delay-150 duration-300 ease-in-out hover:-translate-y-0.5 hover:scale-105"
     style={{ background: "#A03232" }}
   >
     <div className="w-full h-48 rounded-3xl bg-black mb-4"></div>
@@ -24,7 +24,7 @@ const EventCard = () => (
 );
 
 const EventsSection = () => (
-  <section className="text-center py-8">
+  <section className="text-center py-8 ">
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-20 ">
       {[...Array(9)].map((_, index) => (
         <EventCard key={index} />
@@ -42,8 +42,8 @@ export default function Home() {
           <img
             src={text}
             alt="Logo"
-            className="p-10 mx-auto mb-2 "
-           style={{width:"40rem"}}
+            className="p-10 mx-auto mb-2 animate-slideFromBottom"
+           style={{width:"38rem"}}
           />
         </div>
         <EventsSection />
