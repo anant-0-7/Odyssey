@@ -7,6 +7,7 @@ import Home from './components/Home/Home.jsx'
 import About from './components/About/About.jsx'
 import Venue from './components/Venue/Venue.jsx'
 import Spons from './components/Spons/Spons.jsx'
+import Event from './components/Events/Events.jsx'
 const route = createBrowserRouter(
   createRoutesFromElements(
     <>
@@ -14,6 +15,7 @@ const route = createBrowserRouter(
       <Route path="about" element={<About />} />
       <Route path = "/venue" element={<Venue />} />
       <Route path = "/spons" element={<Spons />} />
+      <Route path = "/events" element={<Event />} />
     </>
   )
 );
