@@ -3,16 +3,12 @@ import logo from "../../assets/odyssey.png";
 import text from "../../assets/text.png";
 import footer from "../../assets/FOOTER.png";
 import events from "../../Data/eventData";
-<<<<<<< HEAD
-
-=======
 import club from "../../assets/Club.svg"
 import drag_right from "../../assets/event_top_right.svg"
 import drag_left from "../../assets/event_top_left.svg"
+import castle from "../../assets/event_castle.svg"
 
 
-import "./event.css";
->>>>>>> d5f5a33e5abf5746b022e2b07c2e3d06d5f1c320
 const EventCard = ({ event }) => (
   <article className="text-white p-6 w-full sm:w-80 lg:w-96 rounded-3xl shadow-lg flex flex-col items-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 bg-[#A03232] relative z-10">
     <div className="w-full h-48 rounded-3xl bg-black mb-4"></div>
@@ -80,7 +76,7 @@ export default function Home() {
           </div>
           <EventsSection />
           <div className="absolute bottom-0 right-0 translate-y-10 z-5">
-            <img src="src/assets/event_castle.svg" alt="" />
+            <img src={castle} alt="" />
           </div>
         </div>
         <footer className="w-full h-32 flex justify-center items-center bg-[#A03232] rounded-t-3xl relative z-10">
