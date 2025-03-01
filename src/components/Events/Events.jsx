@@ -1,12 +1,10 @@
-import React from "react";
-import Navbar from "../Home/Navbar";
 import logo from "../../assets/odyssey.png";
 import text from "../../assets/text.png";
 import footer from "../../assets/FOOTER.png";
 
 const EventCard = () => (
   <article
-    className="text-white p-6 w-full sm:w-80 lg:w-96 rounded-3xl shadow-lg flex flex-col items-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"
+    className="text-white p-6 w-full sm:w-80 lg:w-96 rounded-3xl shadow-lg flex-shrink-0 flex flex-col items-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"
     style={{ background: "#A03232" }}
   >
     <div className="w-full h-48 rounded-3xl bg-black mb-4"></div>
