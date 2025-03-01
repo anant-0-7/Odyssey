@@ -46,7 +46,7 @@ const events = [
         "organising_club": "Audiobytes",
         "vertical": "Music",
         "link": "https://unstop.com/o/rSX5ZUB?lb=tDOoeHN2",
-        "description": "An event to showcase your musical talent through beautiful melodies."
+        "description": "A platform for solo instrumentalists to showcase musical talent, inspire, and captivate. Join the competition and let your music shine!"
     },
     {
         "event_name": "Encore Indian (Bollywood Solo Singing)",
@@ -235,7 +235,7 @@ const events = [
         "organising_club": "Finnexia",
         "vertical": "Finance & ENT",
         "link": "https://unstop.com/events/uno-odyssey25-indraprastha-institute-of-information-technology-iiit-delhi-1403003",
-        "description": "A fun and competitive Uno card game tournament."
+        "description": "Welcome to Finnexia x Odyssey's UNO Clash! Experience thrilling competition, wild twists, and strategic showdowns. Draw, discard, shout 'UNO' and battle for victory. Are you ready to outplay and claim the crown?"
     },
     {
         "event_name": "Period Pain Simulator ///holy cramp",

@@ -3,7 +3,7 @@ import logo from "../../assets/odyssey.png";
 import text from "../../assets/text.png";
 import footer from "../../assets/FOOTER.png";
 import events from "../../Data/eventData";
-import "./event.css";
+
 const EventCard = ({ event }) => (
   <article className="text-white p-6 w-full sm:w-80 lg:w-96 rounded-3xl shadow-lg flex flex-col items-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 bg-[#A03232] relative z-10">
     <div className="w-full h-48 rounded-3xl bg-black mb-4"></div>
@@ -25,7 +25,7 @@ const EventCard = ({ event }) => (
         {event.description}
       </p>
     </article>
-    <a href={event.link} className="w-full">
+    <a href={event.link} className="w-full ">
       <button className="mt-4 text-2xl md:text-3xl tracking-wider w-full bg-[#FFCC6D] px-4 py-2 font-bold rounded-3xl text-[#A03232] font-custom">
         REGISTER
       </button>
