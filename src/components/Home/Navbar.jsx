@@ -13,9 +13,10 @@ export default function Navbar() {
           <div className="hidden md:flex space-x-20">
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Home</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/events">Events</Link>
-            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/venue">Venue</Link>
-            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/register">Register</Link>
-            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/about">About</Link>
+            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Venue</Link>
+            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Register</Link>
+            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">About</Link>
+            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/contact">Contact</Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -31,9 +32,10 @@ export default function Navbar() {
           <div className="md:hidden flex flex-col items-center space-y-2 pb-4">
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Home</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/events">Events</Link>
-            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/venue">Venue</Link>
-            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/register">Register</Link>
-            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/about">About</Link>
+            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Venue</Link>
+            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Register</Link>
+            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">About</Link>
+            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/contact">Contact</Link>
           </div>
         )}
       </div>

@@ -12,18 +12,22 @@ const About = () => {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === '/about') {
-      document.body.style.overflow = 'hidden';
-    }
-
-    return () => {
-      document.body.style.overflow = 'auto';
+    const handleScroll = () => {
+      const midlImage = document.querySelector('.midl-image');
+      const rect = midlImage.getBoundingClientRect();
+      if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+        midlImage.classList.add('visible');
+      }
     };
-  }, [location.pathname]);
 
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <section className="odyssey-container">
+    <section className="odyssey-container mt-[-100px]">
       <div className="center-image">
         <h1 className="odyssey-title">About Odyssey</h1>
       </div>
@@ -31,12 +35,12 @@ const About = () => {
 
       <div className="midr-image">
         <p className="odyssey-description">
-          Get ready for an unforgettable celebration of culture, creativity, and camaraderie at the Indian Institute of Information Technology Delhi. Jashn-e-Odyssey is back, and this year promises to be bigger and better than ever before! Explore the magic that awaits you and join us for a two-day extravaganza of talent, enthusiasm, and pure fun.
+          Get ready for an unforgettable celebration of culture, creativity, and camaraderie at the Indraprastha Institute of Information Technology Delhi. Jashn-e-Odyssey is back, and this year promises to be bigger and better than ever before! Explore the magic that awaits you and join us for a two-day extravaganza of talent, enthusiasm, and pure fun.
         </p>
       </div>
       <img src={branch} alt="Decorative branch" className="topr-image" />
       <img src={branchLeft} alt="Decorative branch" className="topl-image" />
-      <img src={grass} alt="Decorative grass" className="bottomr-image" />
+      <img src={grass} alt="Decorative grass" className="bottomr-image hidden lg:block" />
     </section>
   );
 };
