@@ -6,6 +6,7 @@ import logo from "../../assets/odyssey2.svg";
 import Venue from "../Venue/Venue";
 import About from "../About/About";
 import Spons from "../Spons/Spons";
+import Reg from "../Registration/Reg";
 import crown from "../../assets/amit_trivedi.png";
 import avatar from "../../assets/avatar.png" // Import the avatar image
 
@@ -69,6 +70,7 @@ export default function Home() {
       </div>
       <About />
       <Venue />
+      <Reg />
       <Spons/>
     </>
   );

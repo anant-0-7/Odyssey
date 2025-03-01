@@ -20,6 +20,8 @@
   transform: translateX(-50%);
   width: auto;
   height: 30vh; 
+  animation: fadeInGlow 2s forwards;
+  
 }
 
 .center-image {
@@ -70,5 +72,88 @@
   transform: translateX(-50%);
   width: auto;
   height: 30vh; 
+}
+@keyframes fadeInGlow {
+  0% {
+    opacity: 0;
+    filter: drop-shadow(0 0 0px #AD3535);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.midl-image.visible {
+  animation: fadeInGlow 2s forwards;
+}
+
+
+@media (max-aspect-ratio: 1/1) {
+  .odyssey-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw; 
+    height: 100vh; 
+    background-color: #FFCC6D;
+  }
+  
+  .midl-image {
+    position: absolute;
+    top: 140%;
+    left: 20%;
+    transform: translateX(-50%);
+    width: auto;
+    height: 17.5vh; 
+  }
+  
+  .center-image {
+    font-family: 'OdysseyFont', sans-serif;
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #AD3535;
+    text-align: center;
+    font-size: 7vw;
+  }
+  
+  .midr-image {
+    font-family: 'OdysseyFont', sans-serif;
+    position: absolute;
+    top: 135%;
+    left: 65%;
+    right: 5%;
+    transform: translateX(-50%);
+    color: #AD3535;
+    width: auto;
+    height: auto; 
+    text-align: left;
+    font-size: 2.99vw;
+  }
+  .topl-image {
+    position: absolute;
+    top: 95%;
+    left: 9%;
+    transform: translateX(-50%);
+    width: auto;
+    height: 20vh; 
+  }
+  
+  .topr-image {
+    position: absolute;
+    top: 95%;
+    left: 85%;
+    transform: translateX(-50%);
+    width: auto;
+    height: 20vh; 
+  }
+  .bottomr-image {
+    position: absolute;
+    top: 180%;
+    left: 92%;
+    transform: translateX(-50%);
+    width: auto;
+    height: 10vh; 
+  }
 }
 
