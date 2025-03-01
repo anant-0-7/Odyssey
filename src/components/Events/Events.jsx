@@ -3,7 +3,16 @@ import logo from "../../assets/odyssey.png";
 import text from "../../assets/text.png";
 import footer from "../../assets/FOOTER.png";
 import events from "../../Data/eventData";
+<<<<<<< HEAD
 
+=======
+import club from "../../assets/Club.svg"
+import drag_right from "../../assets/event_top_right.svg"
+import drag_left from "../../assets/event_top_left.svg"
+
+
+import "./event.css";
+>>>>>>> d5f5a33e5abf5746b022e2b07c2e3d06d5f1c320
 const EventCard = ({ event }) => (
   <article className="text-white p-6 w-full sm:w-80 lg:w-96 rounded-3xl shadow-lg flex flex-col items-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 bg-[#A03232] relative z-10">
     <div className="w-full h-48 rounded-3xl bg-black mb-4"></div>
@@ -13,7 +22,7 @@ const EventCard = ({ event }) => (
       </h3>
       <p className="flex flex-row gap-2 flex-wrap">
         <span className="text-sm  border-[#FFCC6D] border-2 text-[#FFCC6D] font-normal text-center px-2 py-0.5 rounded-full flex flex-row items-center gap-1">
-          <img src="src/assets/Club.svg" alt="Club-Icon" className="w-6 h-6" />{" "}
+          <img src={club} alt="Club-Icon" className="w-6 h-6" />{" "}
           {event.organising_club}
         </span>
         <span className="text-sm  border-[#FFCC6D] border-2 text-[#FFCC6D] font-normal text-center px-2 py-0.5 rounded-full">
@@ -50,12 +59,12 @@ export default function Home() {
         <div className="relative">
           <div className="absolute top-0 justify-between w-full hidden xl:flex">
             <img
-              src="src/assets/event_top_left.svg"
+              src={drag_left}
               alt="decorative item1"
               className="relative left-0 w-96"
             />
             <img
-              src="src/assets/event_top_right.svg"
+              src={drag_right}
               alt="decorative item2"
               className="relative right-0 w-96"
             />
