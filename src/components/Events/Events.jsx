@@ -1,31 +1,28 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Navbar from "../Home/Navbar";
 import logo from "../../assets/odyssey.png";
 import text from "../../assets/text.png";
 import footer from "../../assets/FOOTER.png";
 
 const EventCard = () => (
-  <div
-    className=" text-white p-4  rounded-3xl shadow-lg flex flex-col items-center transition delay-150 duration-300 ease-in-out hover:-translate-y-0.5 hover:scale-105"
+  <article
+    className="text-white p-6 w-full sm:w-80 lg:w-96 rounded-3xl shadow-lg flex flex-col items-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"
     style={{ background: "#A03232" }}
   >
     <div className="w-full h-48 rounded-3xl bg-black mb-4"></div>
-    <h3 className="p-3 text-4xl font-bold">EVENT NAME</h3>
-    <p className=" text-m font-bold text-left">
+    <h3 className="p-3 text-3xl font-bold">EVENT NAME</h3>
+    <p className="text-m font-semibold text-left">
       Description Description Description Description Description
     </p>
-    <button
-      className="mt-3 text-xl bg-yellow-400 font-bold rounded-3xl text-white px-4 py-2 w-full sm:w-64 md:w-72 lg:w-80 xl:w-96"
-      style={{ background: "#FFCC6D", color: "#A03232" }}
-    >
+    <button className="mt-4 text-lg md:text-xl w-full bg-[#FFCC6D] px-4 py-2 font-bold rounded-3xl text-[#A03232]">
       REGISTER
     </button>
-  </div>
+  </article>
 );
 
 const EventsSection = () => (
-  <section className="text-center py-8 ">
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-20 ">
+  <section className="text-center py-8">
+    <div className="flex flex-wrap justify-center gap-6 py-6 px-4 mx-auto max-w-[1500px]">
       {[...Array(9)].map((_, index) => (
         <EventCard key={index} />
       ))}
@@ -36,28 +33,23 @@ const EventsSection = () => (
 export default function Home() {
   return (
     <>
-      <div className="bg-[#FDFEC4] ">
+      <div className="bg-[#FDFEC4] min-h-screen">
+        
         <div className="h-5/6 relative flex flex-col items-center">
-          <img src={logo} alt="Logo" className="w-80 mx-auto mb-2 " />
+          <img src={logo} alt="Logo" className="w-80 mx-auto mb-4" />
           <img
             src={text}
-            alt="Logo"
-            className="p-10 mx-auto mb-2 animate-slideFromBottom"
-           style={{width:"38rem"}}
+            alt="Event Text"
+            className="p-6 mx-auto mb-4 animate-slideFromBottom"
+            style={{ width: "38rem" }}
           />
         </div>
         <EventsSection />
-        <div
-          className="w-full h-32  "
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            background: "#A03232",
-          }}
+        <footer
+          className="w-full h-32 flex justify-center items-center bg-[#A03232]"
         >
-          <img src={footer} alt="Logo" className="w-40 mx-auto mb-2 " />
-        </div>
+          <img src={footer} alt="Footer Logo" className="w-40 mx-auto" />
+        </footer>
       </div>
     </>
   );
