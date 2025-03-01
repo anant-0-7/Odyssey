@@ -11,7 +11,20 @@ const About = () => {
 
   const location = useLocation();
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const midlImage = document.querySelector('.midl-image');
+      const rect = midlImage.getBoundingClientRect();
+      if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+        midlImage.classList.add('visible');
+      }
+    };
 
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <section className="odyssey-container mt-[-100px]">
@@ -22,7 +35,7 @@ const About = () => {
 
       <div className="midr-image">
         <p className="odyssey-description">
-          Get ready for an unforgettable celebration of culture, creativity, and camaraderie at the Indian Institute of Information Technology Delhi. Jashn-e-Odyssey is back, and this year promises to be bigger and better than ever before! Explore the magic that awaits you and join us for a two-day extravaganza of talent, enthusiasm, and pure fun.
+          Get ready for an unforgettable celebration of culture, creativity, and camaraderie at the Indraprastha Institute of Information Technology Delhi. Jashn-e-Odyssey is back, and this year promises to be bigger and better than ever before! Explore the magic that awaits you and join us for a two-day extravaganza of talent, enthusiasm, and pure fun.
         </p>
       </div>
       <img src={branch} alt="Decorative branch" className="topr-image" />
