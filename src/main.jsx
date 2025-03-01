@@ -6,7 +6,7 @@ import Home from './components/Home/Home.jsx'
 import Event from './components/Events/Events.jsx'
 import Layout from './components/Layout/Layout.jsx'
 import Contact from './components/Contact/Contact.jsx'
-
+import Register from './components/Register/Register.jsx'
 
 const route = createBrowserRouter(
   createRoutesFromElements(
@@ -15,10 +15,8 @@ const route = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path = "/events" element={<Event />} />
       <Route path = "/contact" element={<Contact />} />
+      <Route path = "/register" element={<Register />} />
       </Route>
-
-
-
     </>
   )
 );
