@@ -7,7 +7,7 @@ import Spons from "../Spons/Spons";
 import Reg from "../Registration/Reg";
 import crown from "../../assets/amit_trivedi.png";
 import avatar from "../../assets/avatar.png" // Import the avatar image
-import Abt from "../Abt/Abt";
+import About from "../About/About";
 
 export default function Home() {
 
@@ -73,7 +73,7 @@ export default function Home() {
         <Footer />
 
       </div>
-      <Abt />
+      <About />
       <Venue />
       <Reg />
       <Spons/>
