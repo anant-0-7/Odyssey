@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#FDFEC4] shadow-md">
+    <nav className="bg-[#FDFEC4] shadow-md z-50 top-0 w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-center h-16 items-center">
           {/* Navbar Links (Desktop) */}
