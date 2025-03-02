@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: row;
     width: 100vw; 
-    height: 120vh; 
+    height: 150vh; 
     background-color: #FAAE5C;
 }
 
@@ -28,26 +28,25 @@
 .registration-subtitle {
     font-family: 'OdysseyFont', sans-serif;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translateX(-50%);
     color: #AD3535;
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 4.5vh;
 }
 
 .registration-description1 {
     font-family: 'OdysseyFont', sans-serif;
     position: absolute;
-    top: 58%;
+    top: 50%;
     left: 50%;
-    right: 5%;
     transform: translateX(-50%);
     color: #AD3535;
-    width: 95vh;
+    width: auto;
     height: auto; 
     text-align: center;
-    font-size: 1.99vw;
+    font-size: 3.99vh;
 }
 
 .registration-description2 {
@@ -55,13 +54,12 @@
     position: absolute;
     top: 77%;
     left: 50%;
-    right: 5%;
     transform: translateX(-50%);
     color: #AD3535;
-    width: 95vh;
+    width: auto;
     height: auto; 
     text-align: center;
-    font-size: 1.99vw;
+    font-size: 3.99vh;
 }
 
 .registration-image-top-left { 
@@ -198,7 +196,7 @@
     
     .registration-buttons {
         position: absolute;
-        top: 30%;
+        top: 25%;
         left: 50%;
         transform: translateX(-50%);
         display: flex;
