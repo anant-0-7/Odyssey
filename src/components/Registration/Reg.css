@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: row;
     width: 100vw; 
-    height: 150vh; 
+    height: 120vh; 
     background-color: #FAAE5C;
 }
 
@@ -118,63 +118,109 @@
 
 @media (max-aspect-ratio: 1/1) {
     .registration-container {
+        position: relative;
         display: flex;
         flex-direction: row;
         width: 100vw; 
         height: 100vh; 
-        background-color: #FFCC6D;
+        background-color: #FAAE5C;
     }
-
-    .registration-image-middle-left {
-        position: absolute;
-        top: 140%;
-        left: 20%;
-        transform: translateX(-50%);
-        width: auto;
-        height: 17.5vh; 
-    }
-
+    
     .registration-title {
         font-family: 'OdysseyFont', sans-serif;
         position: absolute;
-        top: 115%;
+        top: 15%;
         left: 50%;
         transform: translateX(-50%);
         color: #AD3535;
         text-align: center;
         font-size: 7vw;
     }
-
+    
+    .registration-subtitle {
+        font-family: 'OdysseyFont', sans-serif;
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #AD3535;
+        text-align: center;
+        font-size: 4vw;
+    }
+    
     .registration-description1 {
         font-family: 'OdysseyFont', sans-serif;
         position: absolute;
-        top: 135%;
-        left: 65%;
+        top: 50%;
+        left: 50%;
         right: 5%;
         transform: translateX(-50%);
         color: #AD3535;
         width: auto;
         height: auto; 
-        text-align: left;
-        font-size: 2.99vw;
+        text-align: center;
+        font-size: 3.29vw;
     }
-
-    .registration-image-top-left {
+    
+    .registration-description2 {
+        font-family: 'OdysseyFont', sans-serif;
         position: absolute;
-        top: 95%;
-        left: 9%;
+        top: 77%;
+        left: 50%;
+        right: 5%;
+        transform: translateX(-50%);
+        color: #AD3535;
+        width: auto;
+        height: auto; 
+        text-align: center;
+        font-size: 3.29vw;
+    }
+    
+    .registration-image-top-left { 
+        position: absolute;
+        top: 12%;
+        left: 7%;
         transform: translateX(-50%);
         width: auto;
-        height: 20vh; 
+        height: 50vw; 
     }
-
+    
     .registration-image-bottom-right {
         position: absolute;
-        top: 180%;
-        left: 92%;
+        top: 80%;
+        left: 91%;
         transform: translateX(-50%);
         width: auto;
-        height: 10vh; 
-    }
-}
+        height: 3vh; 
 
+    }
+    
+    
+    .registration-buttons {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 15vw;
+    }
+    
+    .registration-button {
+        background-color: #AD3535;
+        color: white;
+        font-family: 'OdysseyFont', sans-serif;
+        border: none;
+        border-radius: 15px;
+        width: 22vw;
+        height: 8vh;
+        font-size: 2.5vw;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .registration-button:hover {
+        background-color: #8B2B2B;
+    }
+}    
