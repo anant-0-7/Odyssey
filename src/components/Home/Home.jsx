@@ -24,7 +24,7 @@ export default function Home() {
 
       {/* Main Section */}
       <div className=" w-auto bg-[#FDFEC4] mb-0" >
-        <div className= "h-5/6 relative flex flex-col min-h-screen">
+        <div className= "relative flex flex-col h-[83vh]">
             {/* Left SVG (Flipped) - Hidden on small screens */}
             <img
             src={tree}
