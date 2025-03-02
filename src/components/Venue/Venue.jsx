@@ -10,7 +10,7 @@ export default function Venue() {
 
 
   return (
-    <div className="p-8 bg-[#FAAE5C] flex h-min-[1000] mt-[-60px] font-custom">
+    <div className="p-8 bg-[#FAAE5C] flex h-min-[1000] font-custom">
       {/* Castle on the left */}
       <div className="h-max absolute left-0 top-25 hidden lg:block">
         <Castle className="left-0 resize" />

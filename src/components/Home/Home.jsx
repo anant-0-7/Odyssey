@@ -3,22 +3,28 @@ import Footer from "./Footer";
 import tree from "../../assets/tree.svg";
 import logo from "../../assets/odyssey2.svg";
 import Venue from "../Venue/Venue";
-import About from "../About/About";
 import Spons from "../Spons/Spons";
 import Reg from "../Registration/Reg";
 import crown from "../../assets/amit_trivedi.png";
 import avatar from "../../assets/avatar.png" // Import the avatar image
+import Abt from "../Abt/Abt";
 
 export default function Home() {
 
+  useEffect(()=> {
+    document.body.style.overflowX = 'hidden'
 
+    return () => {
+      document.body.style.overflowX = 'auto'
+  };
+  }, [])
 
   return (
     <>
 
       {/* Main Section */}
-      <div className=" w-auto h-screen bg-[#FDFEC4] overflow-hidden" >
-        <div className= "h-5/6 relative flex flex-col items-center">
+      <div className=" w-auto bg-[#FDFEC4] mb-0" >
+        <div className= "h-5/6 relative flex flex-col min-h-screen">
             {/* Left SVG (Flipped) - Hidden on small screens */}
             <img
             src={tree}
@@ -67,7 +73,7 @@ export default function Home() {
         <Footer />
 
       </div>
-      <About />
+      <Abt />
       <Venue />
       <Reg />
       <Spons/>

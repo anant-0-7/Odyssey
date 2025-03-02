@@ -8,7 +8,7 @@ import Layout from './components/Layout/Layout.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Register from './components/Register/Register.jsx'
 import Try from './components/Try/Try.jsx'
-import About from './components/Abt/abt.jsx'
+import About from './components/Abt/Abt.jsx'
 const route = createBrowserRouter(
   createRoutesFromElements(
     <>
@@ -17,7 +17,6 @@ const route = createBrowserRouter(
       <Route path = "/events" element={<Event />} />
       <Route path = "/contact" element={<Contact />} />
       <Route path = "/register" element={<Register />} />
-      <Route path = "/try" element={<Try/>} />
       <Route path = "/try" element={<Try/>} />
       <Route path = "/Abt" element={<About/>} />
       </Route>

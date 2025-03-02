@@ -6,7 +6,7 @@ import grass from "../../assets/grass.svg";
 import logo from "../../assets/image.svg";
 import React from "react";
 
-const About = () => {
+const Abt = () => {
   const location = useLocation();
 
   useEffect(() => {
@@ -17,7 +17,7 @@ const About = () => {
   }, []);
 
   return (
-    <section className="flex flex-col items-center w-full h-screen bg-[#FFCC6D] font-custom relative rounded-t-3xl">
+    <section className="flex flex-col items-center w-full h-screen bg-[#FFCC6D] font-custom relative">
       <div className="absolute top-0 -translate-y-10 hidden xl:flex justify-between w-full">
         <img
           src={branch}
@@ -82,4 +82,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Abt;
