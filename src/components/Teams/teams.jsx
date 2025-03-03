@@ -17,7 +17,7 @@ const TeamCard = ({ event }) => (
     <img
       src={Divyansh}
       alt=""
-      className="rounded-3xl  mb-4 object-cover w-full aspect-ratio-[5/4]"
+      className="rounded-3xl  mb-4 object-cover w-full aspect-ratio-[7/4]"
     />
     <article className="flex flex-col items-center flex-start gap-2 w-full">
       <h3 className="p-3 pb-1 text-4xl  font-bold text-center tracking-widest font-custom">
