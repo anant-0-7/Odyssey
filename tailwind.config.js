@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         custom: ["OdysseyFont", "sans-serif"], // Use this in Tailwind classes
+        playfair: ["Playfair Display", "serif"],
       },
       keyframes: {
         slideFromRight: {

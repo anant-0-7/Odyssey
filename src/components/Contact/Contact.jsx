@@ -9,8 +9,8 @@ import Mail from "../../assets/material-symbols_mail-rounded.svg"
 const Description = () => (
     <div className="">
         <div className="flex flex-col justify-center py-8">
-            <h1 className="text-3xl font-bold text-[#AD3535] text-center">Follow us on social media to stay updated on all the exciting</h1>
-            <h1 className="text-3xl font-bold text-[#AD3535] text-center">developments and sneak peeks leading up to the grand event.</h1>
+            <h1 className="text-4xl font-semibold text-[#AD3535] text-center font-custom">Follow us on social media to stay updated on all the exciting</h1>
+            <h1 className="text-4xl font-semibold text-[#AD3535] text-center font-custom">developments and sneak peeks leading up to the grand event.</h1>
         </div>
         <div className="flex mt-4 justify-center gap-44 py-5">
             <a
@@ -33,10 +33,10 @@ const Description = () => (
             </a>
         </div>
         <div className="flex flex-col justify-center py-8">
-            <h1 className="text-3xl font-bold text-[#AD3535] text-center">@IIITDODYSSEY</h1>
+            <h1 className="text-3xl font-bold text-[#AD3535] text-center font-custom">@IIITDODYSSEY</h1>
             <div className="flex justify-center items-center text-3xl font-bold text-[#AD3535]">
                 <img src={Mail} alt="" className="w-8 h-8 mr-2" />
-                <span>odyssey@iiitd.ac.in</span>
+                <span className="font-custom ">odyssey@iiitd.ac.in</span>
             </div>
         </div>
     </div>
@@ -57,12 +57,12 @@ const Map = () => (
 
         {/* Venue Address */}
         <div className="text-[#AD3535] mt-6 space-y-1 pb-4">
-            <p className="font-bold text-2xl">
+            <p className="font-bold text-4xl font-custom">
                 INDRAPRASTHA INSTITUTE OF INFORMATION TECHNOLOGY DELHI
             </p>
-            <p className="text-lg font-semibold">OKHLA INDUSTRIAL ESTATE PHASE III</p>
-            <p className="text-lg font-semibold">NEAR GOVIND PURI METRO STATION</p>
-            <p className="text-lg font-semibold">NEW DELHI, INDIA</p>
+            <p className="text-2xl font-semibold font-custom">OKHLA INDUSTRIAL ESTATE PHASE III</p>
+            <p className="text-2xl font-semibold font-custom" >NEAR GOVIND PURI METRO STATION</p>
+            <p className="text-2xl font-semibold font-custom">NEW DELHI, INDIA</p>
         </div>
     </div>
 );
