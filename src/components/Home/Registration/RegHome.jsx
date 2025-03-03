@@ -22,11 +22,11 @@ const RegHome = () => {
         </a>
       </div>
       <p className=" text-[#AD3535] text-center text-4xl md:text-5xl font-custom">Secure Your Spot AT OdysseY</p>
-      <div className=" text-[#AD3535] text-center flex flex-col gap-8 text-2xl md:text-3xl font-custom max-w-4xl px-4">
-        <p className=" text-[#AD3535] text-center text-2xl md:text-3xl font-custom px-4">
+      <div className=" text-[#AD3535] text-center flex flex-col gap-8 text-2xl md:text-3xl font-custom md:max-w-4xl md:px-4">
+        <p className=" text-[#AD3535] text-2xl md:text-3xl font-custom">
           Ready to be a part of the magic? Register now to ensure your entry into the most anticipated cultural fest of the year. Whether you're participating in events or just soaking in the vibrant atmosphere, your registration is your key to unlocking the full Odyssey experience.
         </p>
-        <p className=" text-[#AD3535] text-center text-2xl md:text-3xl font-custom px-4">
+        <p className=" text-[#AD3535]text-2xl md:text-3xl font-custom">
           Don't miss out on the cultural celebration of the year! Join us at Odyssey for an unforgettable experience filled with laughter, creativity, and the spirit of togetherness. See you there!
         </p>
       </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../assets/odyssey.png";
 import text from "../../assets/text.png";
 import footer from "../../assets/FOOTER.png";
 import events from "../../Data/eventData";
@@ -7,6 +6,7 @@ import club from "../../assets/Club.svg"
 import drag_right from "../../assets/event_top_right.svg"
 import drag_left from "../../assets/event_top_left.svg"
 import castle from "../../assets/event_castle.svg"
+import logo from "../../assets/odyssey2.svg";
 
 
 const EventCard = ({ event }) => (
@@ -66,7 +66,11 @@ export default function Home() {
             />
           </div>
           <div className="h-5/6 relative flex flex-col items-center">
-            <img src={logo} alt="Logo" className="w-80 mx-auto mb-4" />
+            <div className="text-center z-10 flex-grow flex flex-col mb-16 justify-start">
+              <img src={logo} alt="Logo" className="mx-auto mb-2 top-0 w-32" />
+              <h1 className="text-5xl md:text-5xl font-bold text-blue-950">Odyssey'25</h1>
+              <h2 className="text-2xl md:text-3xl font-bold text-blue-950 mt-1 mb-15">8-9th March</h2>
+          </div>
             <img
               src={text}
               alt="Event Text"

@@ -11,20 +11,14 @@ import Try from "./EventHome/EventHome";
 
 export default function Home() {
 
-  useEffect(()=> {
-    document.body.style.overflowX = 'hidden'
-
-    return () => {
-      document.body.style.overflowX = 'auto'
-  };
-  }, [])
+  
 
   return (
     <>
 
       {/* Main Section */}
       <div className=" w-auto bg-[#FDFEC4] mb-0" >
-        <div className= "relative flex flex-col h-[83vh]">
+        <div className= "relative flex flex-col h-screen">
             {/* Left SVG (Flipped) - Hidden on small screens */}
             <img
             src={tree}
@@ -41,9 +35,9 @@ export default function Home() {
 
             {/* Centered Content - Adjusted positioning */}
             <div className="text-center z-10 flex-grow flex flex-col mb-16 justify-start">
-            <img src={logo} alt="Logo" className="w-20 mx-auto mb-2" />
-            <h1 className="text-5xl font-bold text-blue-950">Odyssey'25</h1>
-            <h2 className="text-2xl font-bold text-blue-950 mt-1">8-9th March</h2>
+            <img src={logo} alt="Logo" className="mx-auto mb-2 top-0 w-32" />
+            <h1 className="text-5xl md:text-7xl font-bold text-blue-950">Odyssey'25</h1>
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mt-3 mb-15">8-9th March</h2>
           </div>
 
             <div className="absolute bottom-[40px] left-1/2 transform -translate-x-1/2 z-0 flex items-center space-x-4">
@@ -56,7 +50,7 @@ export default function Home() {
             <img
               src={crown}
               alt="Crown Icon"
-              className="w-[200px] md:w-[310px] max-w-none mx-0 animate-slideFromBottom"
+              className="w-[250px] md:w-[330px] max-w-none mx-0 animate-slideFromBottom"
               
             />
             {/* <img
@@ -74,9 +68,9 @@ export default function Home() {
 
       </div>
       <About />
-      <Venue />
-      <Try />
       <RegHome />
+      <Try />
+      <Venue />
       <Spons/>
     </>
   );

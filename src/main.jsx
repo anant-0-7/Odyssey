@@ -10,6 +10,7 @@ import Register from './components/Register/Register.jsx'
 import Try from './components/Home/EventHome/EventHome.jsx'
 import Reg from './components/Home/Registration/RegHome.jsx'
 import Teams from './components/Teams/teams.jsx'
+
 const route = createBrowserRouter(
   createRoutesFromElements(
     <>
