@@ -1,7 +1,7 @@
 import Castle from "./Castle";
-import instagram from "../../assets/instagram.svg";
-import twitter from "../../assets/twitter.svg";
-import linkedin from "../../assets/linkedin.svg";
+import instagram from "../../../assets/instagram.svg";
+import twitter from "../../../assets/twitter.svg";
+import linkedin from "../../../assets/linkedin.svg";
 import {useEffect} from 'react';
 
 export default function Venue() {
