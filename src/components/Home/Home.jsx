@@ -8,6 +8,8 @@ import Reg from "../Registration/Reg";
 import crown from "../../assets/amit_trivedi.png";
 import avatar from "../../assets/avatar.png" // Import the avatar image
 import About from "../About/About";
+import RegHome from "../Registration/RegHome";
+import Try from "../Try/Try";
 
 export default function Home() {
 
@@ -75,7 +77,8 @@ export default function Home() {
       </div>
       <About />
       <Venue />
-      <Reg />
+      <Try />
+      <RegHome />
       <Spons/>
     </>
   );

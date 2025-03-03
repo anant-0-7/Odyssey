@@ -2,11 +2,11 @@ import { useLocation } from 'react-router-dom';
 import wolf from '../../assets/wolf.svg';
 import cat from '../../assets/cat.svg';
 
-const Reg = () => {
+const RegHome = () => {
   const location = useLocation();
 
   return (
-    <section className="relative flex flex-col items-center gap-16 w-full rounded-t-3xl bg-[#FAAE5C] p-20">
+    <section className="relative flex flex-col items-center gap-16 w-full bg-[#FAAE5C] p-20">
         <img 
         src={wolf} 
         alt="Decorative branch" 
@@ -39,4 +39,4 @@ const Reg = () => {
   );
 };
 
-export default Reg;
+export default RegHome;

@@ -8,7 +8,7 @@ import Layout from './components/Layout/Layout.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Register from './components/Register/Register.jsx'
 import Try from './components/Try/Try.jsx'
-import Reg from './components/trytwo/trytwo.jsx'
+import Reg from './components/Registration/RegHome.jsx'
 import Teams from './components/Teams/teams.jsx'
 const route = createBrowserRouter(
   createRoutesFromElements(
