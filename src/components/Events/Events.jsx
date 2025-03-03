@@ -1,12 +1,13 @@
 import React from "react";
 import text from "../../assets/text.png";
-import footer from "../../assets/FOOTER.png";
 import events from "../../Data/eventData";
 import club from "../../assets/Club.svg"
 import drag_right from "../../assets/event_top_right.svg"
 import drag_left from "../../assets/event_top_left.svg"
 import castle from "../../assets/event_castle.svg"
 import logo from "../../assets/odyssey2.svg";
+
+import Footer from "../Home/Footer";
 
 
 const EventCard = ({ event }) => (
@@ -83,9 +84,7 @@ export default function Home() {
             <img src={castle} alt="" />
           </div>
         </div>
-        <footer className="w-full h-32 flex justify-center items-center bg-[#A03232] rounded-t-3xl relative z-10">
-          <img src={footer} alt="Footer Logo" className="w-40 mx-auto" />
-        </footer>
+        <Footer />
       </section>
     </>
   );

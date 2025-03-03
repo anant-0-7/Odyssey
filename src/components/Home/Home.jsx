@@ -63,8 +63,6 @@ export default function Home() {
             
         </div>
 
-        {/* Footer */}
-        <Footer />
 
       </div>
       <About />
@@ -72,6 +70,7 @@ export default function Home() {
       <Try />
       <Venue />
       <Spons/>
+      <Footer />
     </>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import text from "../../assets/REGISTRATIONS.svg";
-import footer from "../../assets/FOOTER.png";
+import Footer from "../Home/Footer";
 import logo from "../../assets/odyssey2.svg";
 
 
@@ -53,9 +53,7 @@ export default function Register() {
             <Description />
 
             {/* Footer Section */}
-            <div className="w-full h-32 flex justify-center items-center bg-[#A03232]">
-                <img src={footer} alt="Footer" className="w-40 mx-auto mb-2" />
-            </div>
+            <Footer />
         </div>
     );
 }

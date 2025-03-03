@@ -11,6 +11,8 @@ import club from "../../assets/Club.svg";
 import drag_right from "../../assets/event_top_right.svg";
 import drag_left from "../../assets/event_top_left.svg";
 import castle from "../../assets/event_castle.svg";
+import Footer from "../Home/Footer";
+
 
 const TeamCard = ({ event }) => (
   <article className="text-white p-6 w-full sm:w-80 lg:w-96 rounded-3xl shadow-lg flex flex-col items-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 bg-[#A03232] relative z-10">
@@ -80,9 +82,7 @@ export default function Teams() {
           </div>
           <TeamsSection />
         </div>
-        <footer className="w-full h-32 flex justify-center items-center bg-[#A03232] rounded-t-3xl relative z-10">
-          <img src={footer} alt="Footer Logo" className="w-40 mx-auto" />
-        </footer>
+        <Footer />
       </section>
     </>
   );
