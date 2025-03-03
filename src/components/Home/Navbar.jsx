@@ -47,7 +47,7 @@ export default function Navbar() {
             </Link>
             <Link
               className="px-4 py-2 rounded-md text-gray-800 hover:text-orange-600 hover:bg-orange-100 font-bold font-playfair transition-colors"
-              to="/teams"
+              to="/team"
             >
               Team
             </Link>
