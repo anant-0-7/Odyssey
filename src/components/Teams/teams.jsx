@@ -11,7 +11,7 @@ import club from "../../assets/Club.svg";
 import drag_right from "../../assets/event_top_right.svg";
 import drag_left from "../../assets/event_top_left.svg";
 import castle from "../../assets/event_castle.svg";
-import Footer from "../Home/Footer";
+import Footer from "../Footer";
 
 
 const TeamCard = ({ event }) => (
@@ -82,7 +82,6 @@ export default function Teams() {
           </div>
           <TeamsSection />
         </div>
-        <Footer />
       </section>
     </>
   );

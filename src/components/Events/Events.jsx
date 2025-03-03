@@ -7,7 +7,7 @@ import drag_left from "../../assets/event_top_left.svg"
 import castle from "../../assets/event_castle.svg"
 import logo from "../../assets/odyssey2.svg";
 
-import Footer from "../Home/Footer";
+import Footer from "../Footer";
 
 
 const EventCard = ({ event }) => (
@@ -84,7 +84,6 @@ export default function Home() {
             <img src={castle} alt="" />
           </div>
         </div>
-        <Footer />
       </section>
     </>
   );

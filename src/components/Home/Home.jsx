@@ -60,6 +60,8 @@ export default function Home() {
               style={{ animationDelay: "0.2s" }}
             /> */}
           </div>  
+
+          <Footer />
             
         </div>
 

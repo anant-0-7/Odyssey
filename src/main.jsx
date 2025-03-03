@@ -7,10 +7,7 @@ import Event from './components/Events/Events.jsx'
 import Layout from './components/Layout/Layout.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Register from './components/Register/Register.jsx'
-import Try from './components/Home/EventHome/EventHome.jsx'
-import Reg from './components/Home/Registration/RegHome.jsx'
-import Teams from './components/Teams/teams.jsx'
-import About from './components/About/About.jsx'
+import Teams from './components/Teams/Teams.jsx'
 
 
 const route = createBrowserRouter(
@@ -20,10 +17,7 @@ const route = createBrowserRouter(
       <Route path="/" element={<Home />} />
       <Route path = "/events" element={<Event />} />
       <Route path = "/contact" element={<Contact />} />
-      <Route path = "/register" element={<Register />} />
-      <Route path = "/about" element={<About/>} />
-      <Route path = "/try" element={<Try/>} />
-      <Route path = "/trytwo" element={<Reg/>} />
+      <Route path = "/register" element={<Register />} />    
       <Route path = "/Teams" element={<Teams/>} />
       </Route>
     </>

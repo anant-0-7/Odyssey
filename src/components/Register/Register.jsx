@@ -1,6 +1,6 @@
 import React from "react";
 import text from "../../assets/REGISTRATIONS.svg";
-import Footer from "../Home/Footer";
+import Footer from "../Footer";
 import logo from "../../assets/odyssey2.svg";
 
 
@@ -53,7 +53,6 @@ export default function Register() {
             <Description />
 
             {/* Footer Section */}
-            <Footer />
         </div>
     );
 }

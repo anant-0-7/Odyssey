@@ -3,7 +3,7 @@ import twitter from "../../assets/twitter.svg";
 import linkedin from "../../assets/linkedin.svg";
 import Mail from "../../assets/material-symbols_mail-rounded.svg"
 import logo from "../../assets/odyssey2.svg";
-import Footer from "../Home/Footer";
+import Footer from "../Footer";
 
 
 const Map = () => (
@@ -89,8 +89,7 @@ export default function Contact() {
                     
                     <Map />
                 </div>
-                <Footer/>
-                {/* <Footer /> */}
+
             </div>
         </>
     );
