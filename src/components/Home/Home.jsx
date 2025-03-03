@@ -5,7 +5,6 @@ import logo from "../../assets/odyssey2.svg";
 import Venue from "./Venue/Venue";
 import Spons from "../Spons/Spons";
 import crown from "../../assets/amit_trivedi.png";
-import avatar from "../../assets/avatar.png" // Import the avatar image
 import About from "../About/About";
 import RegHome from "./Registration/RegHome";
 import Try from "./EventHome/EventHome";
