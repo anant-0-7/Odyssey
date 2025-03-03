@@ -2,14 +2,13 @@ import React, { useEffect } from "react";
 import Footer from "./Footer";
 import tree from "../../assets/tree.svg";
 import logo from "../../assets/odyssey2.svg";
-import Venue from "../Venue/Venue";
+import Venue from "./Venue/Venue";
 import Spons from "../Spons/Spons";
-import Reg from "../Registration/Reg";
 import crown from "../../assets/amit_trivedi.png";
 import avatar from "../../assets/avatar.png" // Import the avatar image
 import About from "../About/About";
-import RegHome from "../Registration/RegHome";
-import Try from "../Try/Try";
+import RegHome from "./Registration/RegHome";
+import Try from "./EventHome/EventHome";
 
 export default function Home() {
 

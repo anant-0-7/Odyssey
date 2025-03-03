@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
-import wolf from '../../assets/wolf.svg';
-import cat from '../../assets/cat.svg';
+import wolf from '../../../assets/wolf.svg';
+import cat from '../../../assets/cat.svg';
 
 const RegHome = () => {
   const location = useLocation();

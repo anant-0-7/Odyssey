@@ -1,8 +1,7 @@
 import React from "react";
-import events from "../../Data/eventData";
-import deer from "../../assets/deer.png";
-import logo from "../../assets/odyssey.png";
-import text from "../../assets/text.png";
+import events from "../../../Data/eventData";
+import deer from "../../../assets/deer.png";
+
 
 const Try = () => {
   // Split the events array
