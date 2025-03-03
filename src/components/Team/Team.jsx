@@ -1,17 +1,10 @@
 import React from "react";
 import logo from "../../assets/odyssey.png";
-import text from "../../assets/text.png";
-import footer from "../../assets/FOOTER.png";
 import linkedin from "../../assets/linkedinp.svg";
 import instagram from "../../assets/instagramp.svg";
 import twitter from "../../assets/twitterp.svg";
 import events from "../../Data/eventData";
 import Divyansh from "../../assets/Divyansh.jpg";
-import club from "../../assets/Club.svg";
-import drag_right from "../../assets/event_top_right.svg";
-import drag_left from "../../assets/event_top_left.svg";
-import castle from "../../assets/event_castle.svg";
-import Footer from "../Footer";
 
 
 const TeamCard = ({ event }) => (

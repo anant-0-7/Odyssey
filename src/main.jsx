@@ -7,7 +7,7 @@ import Event from './components/Events/Events.jsx'
 import Layout from './components/Layout/Layout.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Register from './components/Register/Register.jsx'
-import Teams from './components/Teams/Teams.jsx'
+import Team from './components/Team/Team.jsx'
 
 
 const route = createBrowserRouter(
@@ -18,7 +18,7 @@ const route = createBrowserRouter(
       <Route path = "/events" element={<Event />} />
       <Route path = "/contact" element={<Contact />} />
       <Route path = "/register" element={<Register />} />    
-      <Route path = "/Teams" element={<Teams/>} />
+      <Route path = "/Team" element={<Team />} />
       </Route>
     </>
   )
