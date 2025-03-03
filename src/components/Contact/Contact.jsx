@@ -1,10 +1,10 @@
-import logo from "../../assets/odyssey.png";
 import text from "../../assets/contact_us_title.svg";
 import footer from "../../assets/FOOTER.png";
 import instagram from "../../assets/instagram.svg";
 import twitter from "../../assets/twitter.svg";
 import linkedin from "../../assets/linkedin.svg";
 import Mail from "../../assets/material-symbols_mail-rounded.svg"
+import logo from "../../assets/odyssey2.svg";
 
 const Description = () => (
     <div className="">
@@ -75,7 +75,11 @@ export default function Contact() {
         <>
             <div className="bg-[#FDFEC4]">
                 <div className="h-5/6 relative flex flex-col items-center">
-                    <img src={logo} alt="Logo" className="w-80 mx-auto mb-2 " />
+                        <div className="text-center z-10 flex-grow flex flex-col mb-16 justify-start">
+                            <img src={logo} alt="Logo" className="mx-auto mb-2 top-0 w-32" />
+                            <h1 className="text-3xl md:text-7xl font-bold text-blue-950">Odyssey'25</h1>
+                            <h2 className="text-xl md:text-3xl font-bold text-blue-950 mt-1 mb-15">8-9th March</h2>
+                        </div>
                     <img
                         src={text}
                         alt="Logo"
