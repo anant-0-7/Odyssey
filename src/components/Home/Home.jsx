@@ -43,7 +43,7 @@ export default function Home() {
             {/* Centered Content - Adjusted positioning */}
             <div className="text-center z-10 flex-grow flex flex-col mb-16 justify-start">
             <img src={logo} alt="Logo" className="w-20 mx-auto mb-2" />
-            <h1 className="text-5xl font-playfair font-bold text-blue-950">Odyssey'25</h1>
+            <h1 className="text-5xl font-playfair font-bold text-blue-950 mb-4">Odyssey'25</h1>
             <h2 className="text-2xl font-playfair font-bold text-blue-950 mt-1">8-9th March</h2>
           </div>
 
