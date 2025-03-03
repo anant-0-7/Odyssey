@@ -33,7 +33,7 @@ export default function Navbar() {
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Home</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/events">Events</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Venue</Link>
-            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">Register</Link>
+            <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/register">Register</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/">About</Link>
             <Link className="text-gray-800 hover:text-orange-600 font-medium" to="/contact">Contact</Link>
           </div>
