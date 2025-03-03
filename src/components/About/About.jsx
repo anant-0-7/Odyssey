@@ -33,7 +33,7 @@ const About = () => {
 
       <div className="absolute top-[15%] text-[#AD3535] text-center text-5xl"></div>
 
-      <div className="flex flex-col lg:flex-row lg:gap-40 justify-center items-center w-full h-full max-w-7xl p-6 md:p-12 lg:p-24">
+      <div className="flex flex-col lg:flex-row gap-16 lg:gap-40 justify-center items-center max-lg:py-16 w-full lg:h-full max-w-7xl p-6 md:p-12 lg:p-24">
         <img
           src={logo}
           alt="Odyssey context image"
