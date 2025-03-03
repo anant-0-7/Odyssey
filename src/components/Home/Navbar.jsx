@@ -44,12 +44,7 @@ export default function Navbar() {
             >
               Register
             </Link>
-            <Link
-              className="px-4 py-2 rounded-md text-gray-800 hover:text-orange-600 hover:bg-orange-100 font-bold font-playfair transition-colors"
-              to="/"
-            >
-              About
-            </Link>
+            
             <Link
               className="px-4 py-2 rounded-md text-gray-800 hover:text-orange-600 hover:bg-orange-100 font-bold font-playfair transition-colors"
               to="/contact"
@@ -100,13 +95,7 @@ export default function Navbar() {
             >
               Register
             </Link>
-            <Link
-              className="w-full text-center py-2 text-gray-800 hover:text-orange-600 hover:bg-orange-100 transition-colors"
-              to="/"
-              onClick={() => setIsOpen(false)}
-            >
-              About
-            </Link>
+
             <Link
               className="w-full text-center py-2 text-gray-800 hover:text-orange-600 hover:bg-orange-100 transition-colors"
               to="/contact"

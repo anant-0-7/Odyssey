@@ -15,18 +15,21 @@ const Description = () => (
         <div className="flex mt-4 justify-center gap-44 py-5">
             <a
                 href="https://www.instagram.com/iiitdodyssey/?hl=en"
+                target = "_blank"
                 className="p-2"
             >
                 <img src={instagram} className="w-auto h-12" alt="Instagram" />
             </a>
             <a
                 href="https://x.com/odyssey_iiitd"
+                target = "_blank"
                 className="p-2"
             >
                 <img src={twitter} className="w-auto h-12" alt="Twitter" />
             </a>
             <a
-                href="#"
+                href="https://www.linkedin.com/company/iiitdodyssey/"
+                target = "_blank"
                 className="p-2"
             >
                 <img src={linkedin} className="w-auto h-12" alt="LinkedIn" />
