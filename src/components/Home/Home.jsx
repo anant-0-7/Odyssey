@@ -43,8 +43,8 @@ export default function Home() {
             {/* Centered Content - Adjusted positioning */}
             <div className="text-center z-10 flex-grow flex flex-col mb-16 justify-start">
             <img src={logo} alt="Logo" className="mx-auto mb-2 top-0 w-32" />
-            <h1 className="text-7xl font-bold text-blue-950">Odyssey'25</h1>
-            <h2 className="text-3xl font-bold text-blue-950 mt-1 mb-15">8-9th March</h2>
+            <h1 className="text-3xl md:text-7xl font-bold text-blue-950">Odyssey'25</h1>
+            <h2 className="text-xl md:text-3xl font-bold text-blue-950 mt-1 mb-15">8-9th March</h2>
           </div>
 
             <div className="absolute bottom-[40px] left-1/2 transform -translate-x-1/2 z-0 flex items-center space-x-4">
@@ -57,7 +57,7 @@ export default function Home() {
             <img
               src={crown}
               alt="Crown Icon"
-              className="w-[200px] md:w-[330px] max-w-none mx-0 animate-slideFromBottom"
+              className="w-[250px] md:w-[330px] max-w-none mx-0 animate-slideFromBottom"
               
             />
             {/* <img
