@@ -6,10 +6,6 @@ import logo from "../../assets/odyssey2.svg";
 import Footer from "../Home/Footer";
 
 
-// const Description = () => (
-    
-// );
-
 const Map = () => (
     <section className="flex flex-col justify-center md:w-[800px] md:mx-auto py-8 items-start relative z-10">
         <div className="md:w-[1200px] md:mx-auto max-w-4xl aspect-[16/9] bg-gray-100 rounded-3xl border-2 border-[#E0E0E0] overflow-hidden">
@@ -93,6 +89,7 @@ export default function Contact() {
                     
                     <Map />
                 </div>
+                <Footer/>
                 {/* <Footer /> */}
             </div>
         </>

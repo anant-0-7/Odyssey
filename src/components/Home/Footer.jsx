@@ -15,7 +15,7 @@ export default function Footer() {
         bg-[#A03232]
         text-white
         overflow-hidden
-        rounded-t-[100px]
+  
       "
       style={{
         backgroundImage: `url(${Background})`,
