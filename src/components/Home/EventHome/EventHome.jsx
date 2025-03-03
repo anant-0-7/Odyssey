@@ -8,7 +8,7 @@ const Try = () => {
   const rightThemes = eventThemes.slice(Math.ceil(eventThemes.length / 2));
 
   return (
-    <section className="bg-[#FFCC6D] rounded-t-3xl p-10 font-custom relative z-5">
+    <section className="bg-[#FFCC6D] p-10 font-custom relative z-5">
       <div className="absolute w-full h-auto hidden lg:flex  justify-center items-center gap-10">
          <img src={deer} alt="decorative deer" className="pt-48 pr-16 z-10" />
       </div>
