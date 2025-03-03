@@ -48,24 +48,24 @@ export default function Home() {
           </div>
 
             <div className="absolute bottom-[40px] left-1/2 transform -translate-x-1/2 z-0 flex items-center space-x-4">
-            <img
+            {/* <img
               src={avatar}
               alt="Left Avatar"
               className="w-[100px] md:w-[175px] max-w-none translate-y-24"
               style={{ animationDelay: "0.2s" }}
-            />
+            /> */}
             <img
               src={crown}
               alt="Crown Icon"
               className="w-[200px] md:w-[310px] max-w-none mx-0 animate-slideFromBottom"
               
             />
-            <img
+            {/* <img
               src={avatar}
               alt="Right Avatar"
               className="w-[100px] md:w-[175px] max-w-none translate-y-24"
               style={{ animationDelay: "0.2s" }}
-            />
+            /> */}
           </div>  
             
         </div>
