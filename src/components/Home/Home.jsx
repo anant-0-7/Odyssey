@@ -12,13 +12,7 @@ import Try from "./EventHome/EventHome";
 
 export default function Home() {
 
-  useEffect(()=> {
-    document.body.style.overflowX = 'hidden'
-
-    return () => {
-      document.body.style.overflowX = 'auto'
-  };
-  }, [])
+  
 
   return (
     <>
