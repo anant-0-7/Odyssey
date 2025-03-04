@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/odyssey.png";
+import logo from "../../assets/odyssey2.svg";
 import linkedin from "../../assets/linkedinp.svg";
 import instagram from "../../assets/instagramp.svg";
 import twitter from "../../assets/twitterp.svg";
@@ -63,11 +63,14 @@ export default function Teams() {
     <>
       <section className="bg-[#FDFEC4] min-h-screen relative">
         <div className="relative">
-          <div className="h-5/6 relative flex flex-col items-center">
-            <img src={logo} alt="Logo" className="w-80 mx-auto mb-4" />
-
+            <div className="h-5/6 relative flex flex-col items-center">
+                        <div className="text-center z-10 flex-grow flex flex-col mb-16 justify-start">
+                          <img src={logo} alt="Logo" className="mx-auto mb-2 top-0 w-32" />
+                          <h1 className="text-5xl md:text-5xl font-bold text-blue-950 font-playfair">Odyssey'25</h1>
+                          <h2 className="text-2xl md:text-3xl font-bold text-blue-950 mt-1 mb-15 font-playfair">8-9th March</h2>
+                      </div>
             <p
-              className="p-6 text-7xl text-[#A03232] font-custom mx-auto mb-4 animate-slideFromBottom"
+              className="p-6 text-7xl text-[#A03232] font-custom mx-auto mb-4 animate-slideFromBottom justify-center flex "
               style={{ width: "38rem" }}
             >
               ORGANISING COMMITTEE

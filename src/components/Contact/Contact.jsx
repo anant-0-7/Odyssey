@@ -18,7 +18,7 @@ const Map = () => (
             ></iframe>
         </div>
 
-        
+
         <article className="text-[#AD3535] mt-6 space-y-1 pb-4 text-left  mx-1">
             <p className="font-bold text-4xl font-custom">
                 INDRAPRASTHA INSTITUTE OF INFORMATION TECHNOLOGY DELHI
@@ -35,58 +35,58 @@ export default function Contact() {
         <>
             <div className="bg-[#FDFEC4]">
                 <div className="h-5/6 relative flex flex-col items-center">
-                        <div className="text-center z-10 flex-grow flex flex-col mb-16 justify-start">
-                            <img src={logo} alt="Logo" className="mx-auto mb-2 top-0 w-32" />
-                            <h1 className="text-5xl md:text-5xl font-bold text-blue-950">Odyssey'25</h1>
-                            <h2 className="text-2xl md:text-3xl font-bold text-blue-950 mt-1 mb-15">8-9th March</h2>
-                        </div>
+                    <div className="text-center z-10 flex-grow flex flex-col mb-16 justify-start">
+                        <img src={logo} alt="Logo" className="mx-auto mb-2 top-0 w-32" />
+                        <h1 className="text-5xl md:text-5xl font-bold text-blue-950 font-playfair mb-2">Odyssey'25</h1>
+                        <h2 className="text-2xl md:text-3xl font-bold text-blue-950 mt-1 mb-15 font-playfair">8-9th March</h2>
+                    </div>
                     <h1 className="text-6xl md:text-8xl text-[#AD3535] font-custom  animate-slideFromBottom">CONTACT US</h1>
                 </div>
                 <div>
-                <section className="">
-        <div className="flex flex-col justify-center py-8">
-            <h1 className="text-4xl font-normal text-[#AD3535] text-center font-custom md:mx-0 mx-2 uppercase">Follow us on social media to stay updated on all the exciting</h1>
-            <h1 className="text-4xl font-normal text-[#AD3535] text-center font-custom uppercase">developments and sneak peeks leading up to the grand event.</h1>
-        </div>
-        <div className="flex mt-4 justify-center gap-28 py-5">
-            
-            <a
-                href="https://x.com/odyssey_iiitd"
-                target = "_blank"
-                className="p-2"
-            >
-                <img src={twitter} className="w-auto h-16" alt="Twitter" />
-            </a>
-            <a
-                href="https://www.linkedin.com/company/iiitdodyssey/"
-                target = "_blank"
-                className="p-2"
-            >
-                <img src={linkedin} className="w-auto h-16" alt="LinkedIn" />
-            </a>
-            <a
-                href="https://www.instagram.com/iiitdodyssey/?hl=en"
-                target = "_blank"
-                className="p-2"
-            >
-                <img src={instagram} className="w-auto h-16" alt="Instagram" />
-            </a>
-        </div>
-        <div className="flex flex-col justify-center py-8">
-            <h1 className="text-3xl font-normal text-[#AD3535] text-center font-custom">@IIITDODYSSEY</h1>
-            <div className="flex justify-center items-center text-3xl font-normal text-[#AD3535]">
-                <img src={Mail} alt="" className="w-8 h-8 mr-2" />
-                <span className="font-custom ">odyssey@iiitd.ac.in</span>
-            </div>
-        </div>
-    </section>
+                    <section className="">
+                        <div className="flex flex-col justify-center py-8">
+                            <h1 className="text-4xl font-normal text-[#AD3535] text-center font-custom md:mx-0 mx-2 uppercase">Follow us on social media to stay updated on all the exciting</h1>
+                            <h1 className="text-4xl font-normal text-[#AD3535] text-center font-custom uppercase">developments and sneak peeks leading up to the grand event.</h1>
+                        </div>
+                        <div className="flex mt-4 justify-center gap-28 py-5">
+
+                            <a
+                                href="https://x.com/odyssey_iiitd"
+                                target="_blank"
+                                className="p-2"
+                            >
+                                <img src={twitter} className="w-auto h-16" alt="Twitter" />
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/company/iiitdodyssey/posts/?feedView=all"
+                                target="_blank"
+                                className="p-2"
+                            >
+                                <img src={linkedin} className="w-auto h-16" alt="LinkedIn" />
+                            </a>
+                            <a
+                                href="https://www.instagram.com/iiitdodyssey/?hl=en"
+                                target="_blank"
+                                className="p-2"
+                            >
+                                <img src={instagram} className="w-auto h-16" alt="Instagram" />
+                            </a>
+                        </div>
+                        <div className="flex flex-col justify-center py-8">
+                            <h1 className="text-3xl font-normal text-[#AD3535] text-center font-custom">@IIITDODYSSEY</h1>
+                            <div className="flex justify-center items-center text-3xl font-normal text-[#AD3535]">
+                                <img src={Mail} alt="" className="w-8 h-8 mr-2" />
+                                <span className="font-custom ">odyssey@iiitd.ac.in</span>
+                            </div>
+                        </div>
+                    </section>
                 </div>
                 <div className="relative overflow-hidden">
-                    
+
                     <div className="absolute w-full bottom-0 right-0 translate-y-10 z-5">
                         <BC />
                     </div>
-                    
+
                     <Map />
                 </div>
 

@@ -3,6 +3,7 @@ import Background from "../assets/footer_bakcground.svg";
 import title from "../assets/odyssey_title.png";
 import ornament from "../assets/odyssey_logo.png";
 import collegeLogo from "../assets/college_logo.png";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -41,9 +42,9 @@ export default function Footer() {
             </div>
             <div className="flex flex-col gap-1">
               <p className="text-2xl font-playfair font-bold">Social Links</p>
-              <p className="text-xl font-playfair">Instgram</p>
-              <p className="text-xl font-playfair">Twitter</p>
-              <p className="text-xl font-playfair">Linkedin</p>
+              <p className="text-xl font-playfair"><Link to={"https://www.instagram.com/iiitdodyssey/?hl=en"}>Instgram</Link></p>
+              <p className="text-xl font-playfair"><Link to={"https://x.com/iiitdodyssey?lang=en"}>Twitter</Link></p>
+              <p className="text-xl font-playfair"><Link to={"https://www.linkedin.com/company/iiitdodyssey/posts/?feedView=all"}>Linkedin</Link></p>
             </div>
             <div className="flex flex-col gap-1">
               <p className="text-2xl font-playfair font-bold">Contact</p>
