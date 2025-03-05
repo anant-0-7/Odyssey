@@ -2,13 +2,18 @@ import React from "react";
 import text from "../../assets/SPONSORS.svg";
 import Footer from "../Footer";
 import logo from "../../assets/odyssey2.svg";
+import Mankind from '../../assets/mankind.svg';
+import Nodwin from '../../assets/nodwin.svg'; 
+import ICICI from '../../assets/icici.svg';
+import Quelica from '../../assets/quelica.svg';
+import Mercy from '../../assets/mercy_for_animals.svg';
 
 const data  = [
-    {name: "Mankind consumer products pvt ltd", image: "src/assets/mankind.svg"},
-    {name: "ICICI Bank Limited",  image: "src/assets/icici.svg"},
-    {name: "Nodwin",  image: "src/assets/nodwin.svg"},
-    {name: "Quelica",  image: "src/assets/quelica.svg"},
-    {name: "Mercy for animals India Foundation",  image: "src/assets/mercy_for_animals.svg"}
+    {name: "Mankind consumer products pvt ltd", image: Mankind},
+    {name: "ICICI Bank Limited",  image: ICICI},
+    {name: "Nodwin",  image: Nodwin},
+    {name: "Quelica",  image: Quelica},
+    {name: "Mercy for animals India Foundation",  image: Mercy}
 ]
 
 const Description = () => (
