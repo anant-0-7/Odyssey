@@ -8,7 +8,7 @@ import Layout from './components/Layout/Layout.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Register from './components/Register/Register.jsx'
 import Team from './components/Team/Team.jsx'
-
+import Spons from "./components/Spons/Spons_page.jsx"
 
 const route = createBrowserRouter(
   createRoutesFromElements(
@@ -19,6 +19,7 @@ const route = createBrowserRouter(
       <Route path = "/contact" element={<Contact />} />
       <Route path = "/register" element={<Register />} />    
       <Route path = "/Team" element={<Team />} />
+      <Route path = "/Spons" element={<Spons />} />
       </Route>
     </>
   )

@@ -47,8 +47,8 @@ export default function Register() {
                 />
             </div>
             <div className="flex justify-center items-center flex-col gap-8 py-3">
-                <button className="bg-[#AD3535] text-2xl md:w-96 py-8 text-center rounded-3xl text-white  font-custom w-72">DAY 1 Passes</button>
-                <button className="bg-[#AD3535] text-2xl md:w-96 py-8 text-center rounded-3xl text-white  font-custom w-72">DAY 2 Passes</button>
+                <button className="bg-[#AD3535] text-2xl md:w-96 py-8 text-center rounded-3xl text-white font-custom w-72">DAY 1 Passes</button>
+                <button className="bg-[#AD3535] text-2xl md:w-96 py-8 text-center rounded-3xl text-white font-custom w-72">DAY 2 Passes</button>
             </div>
             <Description />
 

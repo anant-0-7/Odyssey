@@ -1,5 +1,10 @@
 import "./Spons.css";
-import React from 'react';
+import Mankind from '../../assets/mankind.svg';
+import Nodwin from '../../assets/nodwin.svg'; 
+import ICICI from '../../assets/icici.svg';
+import Quelica from '../../assets/quelica.svg';
+import Mercy from '../../assets/mercy_for_animals.svg';
+
 
 
 export default function Spons(){
@@ -15,13 +20,11 @@ export default function Spons(){
             <p className="description">A heartfelt thank you to our sponsors for making Odyssey possible! We extend our gratitude to these organizations for their support and commitment to fostering creativity and culture. Explore our sponsors' page to learn more about the fantastic companies that believe in the power of celebration.</p>
         </div>
         <div className="cards">
-            <div className="items">Sponsor 1</div>
-            <div className="items">Sponsor 2</div>
-            <div className="items">Sponsor 3</div>
-            <div className="items">Sponsor 4</div>
-            <div className="items">Sponsor 5</div>
-            <div className="items">Sponsor 6</div>
-
+            <div className="items" style={{backgroundColor : "#FFFFFF"}}><img src ={Mankind} /></div>
+            <div className="items" style={{backgroundColor : "#FFFFFF"}}><img src ={Nodwin} /></div>
+            <div className="items" style={{backgroundColor : "#FFFFFF"}}><img src ={ICICI} /></div>
+            <div className="items" style={{backgroundColor : "#FFFFFF"}}><img src ={Quelica} /></div>
+            <div className="items" style={{backgroundColor : "#FFFFFF"}}><img src ={Mercy} /></div>
         </div>
 
     </div>

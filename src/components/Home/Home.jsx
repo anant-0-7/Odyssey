@@ -8,6 +8,7 @@ import crown from "../../assets/amit_trivedi.png";
 import About from "../About/About";
 import RegHome from "./Registration/RegHome";
 import Try from "./EventHome/EventHome";
+;
 
 export default function Home() {
 

@@ -1,0 +1,50 @@
+import React from "react";
+import text from "../../assets/SPONSORS.svg";
+import Footer from "../Footer";
+import logo from "../../assets/odyssey2.svg";
+
+const data  = [
+    {name: "Mankind consumer products pvt ltd", image: "src/assets/mankind.svg"},
+    {name: "ICICI Bank Limited",  image: "src/assets/icici.svg"},
+    {name: "Nodwin",  image: "src/assets/nodwin.svg"},
+    {name: "Quelica",  image: "src/assets/quelica.svg"},
+    {name: "Mercy for animals India Foundation",  image: "src/assets/mercy_for_animals.svg"}
+]
+
+const Description = () => (
+    <div className="py-16 text-center">
+        <div className="flex flex-col justify-center items-center">
+            {data.map((item) => (
+                <div className="py-16 items-center flex flex-col justify-center">
+                    <div className="w-[228px] h-[170px] bg-white flex justify-center items-center"><img src={item.image} alt={item.name}/></div>
+                    <h1 className="text-5xl text-[#AD3535] text-center font-custom py-6">
+                        {item.name}
+                    </h1>
+                </div>
+            ))}
+        </div>
+    </div>
+);
+
+export default function Register() {
+    return (
+        <div className="bg-[#FDFEC4] min-h-screen">
+            {/* Main Section */}
+            <div className=  "relative flex flex-col items-center">
+                <div className="text-center z-10 flex-grow flex flex-col mb-16 justify-start">
+                    <img src={logo} alt="Logo" className="mx-auto mb-2 top-0 w-32" />
+                    <h1 className="text-5xl md:text-5xl font-bold text-blue-950 font-playfair mb-2">Odyssey'25</h1>
+                    <h2 className="text-2xl md:text-3xl font-bold text-blue-950 mt-1 mb-15 font-playfair">8-9th March</h2>
+                </div>
+                <img
+                    src={text}
+                    alt="Registration Details"
+                    className="p-10 mx-auto mb-2 animate-slideFromBottom"
+                    style={{ width: "38rem" }}
+                />
+            </div>
+            <Description />
+            {/* Footer Section */}
+        </div>
+    );
+}

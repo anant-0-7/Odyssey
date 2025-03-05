@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,6 +32,12 @@ export default function Navbar() {
               to="/events"
             >
               Events
+            </Link>
+            <Link
+              className="px-4 py-2 rounded-md text-gray-800 hover:text-orange-600 hover:bg-orange-100 font-bold font-playfair transition-colors"
+              to="/spons"
+            >
+              Sponsors
             </Link>
             <Link
               className="px-4 py-2 rounded-md text-gray-800 hover:text-orange-600 hover:bg-orange-100 font-bold font-playfair transition-colors"
