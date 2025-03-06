@@ -68,11 +68,13 @@ export default function Home() {
 
 
       </div>
+      <div className="overflow-x-hidden">
       <About />
       <RegHome />
       <Try />
       <Venue />
       <Spons/>
+      </div>
     </>
   );
 }
