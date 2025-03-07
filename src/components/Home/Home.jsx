@@ -35,10 +35,10 @@ export default function Home() {
             />
 
             {/* Centered Content - Adjusted positioning */}
-            <div className="text-center z-10 flex-grow flex flex-col mb-16 justify-start">
-            <img src={logo} alt="Logo" className="mx-auto mb-2 top-0 w-32" />
-            <h1 className="text-5xl md:text-7xl font-bold text-blue-950 font-playfair">Odyssey'25</h1>
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mt-3 mb-15 font-playfair">8-9th March</h2>
+            <div className="text-center z-10 flex-grow flex flex-col mb-16 justify-center">
+            <img src={logo} alt="Logo" className="mx-auto mb-2 top-0 w-40" />
+            <h1 className="text-5xl md:text-8xl font-bold text-blue-950 font-playfair">Odyssey'25</h1>
+            <h2 className="text-4xl md:text-5xl font-bold text-blue-950 mt-3 mb-15 font-playfair">8-9th March</h2>
           </div>
 
             <div className="absolute bottom-[40px] left-1/2 transform -translate-x-1/2 z-0 flex items-center space-x-4">
@@ -48,12 +48,12 @@ export default function Home() {
               className="w-[100px] md:w-[175px] max-w-none translate-y-24"
               style={{ animationDelay: "0.2s" }}
             /> */}
-            <img
+            {/* <img
               src={crown}
               alt="Crown Icon"
               className="w-[250px] md:w-[330px] max-w-none mx-0 animate-slideFromBottom"
               
-            />
+            /> */}
             {/* <img
               src={avatar}
               alt="Right Avatar"
