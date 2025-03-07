@@ -7,13 +7,31 @@ import Nodwin from '../../assets/nodwin.svg';
 import ICICI from '../../assets/icici.svg';
 import Quelica from '../../assets/quelica.svg';
 import Mercy from '../../assets/mercy_for_animals.svg';
+import SBI from '../../assets/SBI.png';
+import Rajdhani from '../../assets/rajdhani.png';
+import Instax from '../../assets/instax.png';
+import DTDC from '../../assets/dtdc.png';
+import krafton from '../../assets/krafton.png';
+import Imperial from '../../assets/imperial.png';
+import Farmley from '../../assets/farmley.png';
+import Poly from '../../assets/polymed.png';
+
 
 const data  = [
     {name: "Mankind consumer products pvt ltd", image: Mankind},
     {name: "ICICI Bank Limited",  image: ICICI},
     {name: "Nodwin",  image: Nodwin},
     {name: "Quelica",  image: Quelica},
-    {name: "Mercy for animals India Foundation",  image: Mercy}
+    {name: "Mercy for animals India Foundation",  image: Mercy},
+    {name: "SBI",  image: SBI},
+    {name: "Instax",  image: Instax},
+    {name: "Farmley",  image: Farmley},
+    {name: "Imperial Auto",  image: Imperial},
+    {name: "Poly Medicure",  image: Poly},
+    {name: "Delhi Tourism", image: DTDC},
+    {name: "KRAFTON",  image: krafton},
+    {name: "Rajdhani Electricals",  image: Rajdhani},
+
 ]
 
 const Description = () => (
@@ -21,7 +39,7 @@ const Description = () => (
         <div className="flex flex-col justify-center items-center">
             {data.map((item) => (
                 <div className="py-16 items-center flex flex-col justify-center">
-                    <div className="w-[228px] h-[170px] bg-white flex justify-center items-center"><img src={item.image} alt={item.name}/></div>
+                    <div className="w-[228px] h-[170px] bg-white flex justify-center items-center p-5"><img src={item.image} alt={item.name}/></div>
                     <h1 className="text-5xl text-[#AD3535] text-center font-custom py-6">
                         {item.name}
                     </h1>
