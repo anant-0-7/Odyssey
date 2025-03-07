@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,9 +35,9 @@ export default function Navbar() {
             </Link>
             <Link
               className="px-4 py-2 rounded-md text-gray-800 hover:text-orange-600 hover:bg-orange-100 font-bold font-playfair transition-colors"
-              to="/"
+              to="/spons"
             >
-              Venue
+              Sponsors
             </Link>
             <Link
               className="px-4 py-2 rounded-md text-gray-800 hover:text-orange-600 hover:bg-orange-100 font-bold font-playfair transition-colors"
@@ -44,18 +45,19 @@ export default function Navbar() {
             >
               Register
             </Link>
-            <Link
-              className="px-4 py-2 rounded-md text-gray-800 hover:text-orange-600 hover:bg-orange-100 font-bold font-playfair transition-colors"
-              to="/"
-            >
-              About
-            </Link>
+            
             <Link
               className="px-4 py-2 rounded-md text-gray-800 hover:text-orange-600 hover:bg-orange-100 font-bold font-playfair transition-colors"
               to="/contact"
             >
               Contact
             </Link>
+            {/* <Link
+              className="px-4 py-2 rounded-md text-gray-800 hover:text-orange-600 hover:bg-orange-100 font-bold font-playfair transition-colors"
+              to="/team"
+            >
+              Team
+            </Link> */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -100,13 +102,7 @@ export default function Navbar() {
             >
               Register
             </Link>
-            <Link
-              className="w-full text-center py-2 text-gray-800 hover:text-orange-600 hover:bg-orange-100 transition-colors"
-              to="/"
-              onClick={() => setIsOpen(false)}
-            >
-              About
-            </Link>
+
             <Link
               className="w-full text-center py-2 text-gray-800 hover:text-orange-600 hover:bg-orange-100 transition-colors"
               to="/contact"

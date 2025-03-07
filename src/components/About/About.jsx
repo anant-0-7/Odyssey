@@ -1,11 +1,9 @@
-import { StrictMode, useEffect } from "react";
+import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import branch from "../../assets/branch.svg";
 import branchLeft from "../../assets/branchleft.svg";
 import grass from "../../assets/grass.svg";
 import logo from "../../assets/image.svg";
-import React from "react";
-
 const About = () => {
   const location = useLocation();
 
@@ -54,7 +52,6 @@ const About = () => {
         alt="Decorative grass"
         className="absolute bottom-0 right-0 translate-y-10 hidden  lg:block lg:w-44 xl:w-64"
       />
-
       <style>
         {`
           .odyssey-logo {

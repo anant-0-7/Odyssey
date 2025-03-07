@@ -2,7 +2,6 @@ import Castle from "./Castle";
 import instagram from "../../../assets/instagram.svg";
 import twitter from "../../../assets/twitter.svg";
 import linkedin from "../../../assets/linkedin.svg";
-import {useEffect} from 'react';
 
 export default function Venue() {
 
@@ -15,7 +14,7 @@ export default function Venue() {
       <div className="h-max absolute left-0 top-25 hidden lg:block">
         <Castle className="left-0 resize" />
       </div>
-      <div className="w-2/6 h-max">
+      <div className="w-2/6 h-max hidden md:block">
         <svg></svg>
       </div>
 
@@ -23,7 +22,7 @@ export default function Venue() {
       <div className="flex flex-col justify-center space-y-4 mt-15 pr-8 resize z-30">
         <h1 className="text-8xl font-medium text-[#AD3535]">VENUE</h1>
 
-        <div className="space-y-2 max-w-2xl">
+        <div className="space-y-2 md:max-w-2xl">
           <p className="text-3xl text-[#AD3535]">
             FOLLOW US ON SOCIAL MEDIA TO STAY UPDATED ON ALL THE EXCITING
           </p>

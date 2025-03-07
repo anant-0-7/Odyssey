@@ -5,27 +5,21 @@ import logo from "../../assets/odyssey2.svg";
 import Venue from "./Venue/Venue";
 import Spons from "../Spons/Spons";
 import crown from "../../assets/amit_trivedi.png";
-import avatar from "../../assets/avatar.png" // Import the avatar image
 import About from "../About/About";
 import RegHome from "./Registration/RegHome";
 import Try from "./EventHome/EventHome";
+;
 
 export default function Home() {
 
-  useEffect(()=> {
-    document.body.style.overflowX = 'hidden'
-
-    return () => {
-      document.body.style.overflowX = 'auto'
-  };
-  }, [])
+  
 
   return (
     <>
 
       {/* Main Section */}
       <div className=" w-auto bg-[#FDFEC4] mb-0" >
-        <div className= "relative flex flex-col h-[83vh]">
+        <div className= "relative flex flex-col h-screen">
             {/* Left SVG (Flipped) - Hidden on small screens */}
             <img
             src={tree}
@@ -41,10 +35,10 @@ export default function Home() {
             />
 
             {/* Centered Content - Adjusted positioning */}
-            <div className="text-center z-10 flex-grow flex flex-col mb-16 justify-start">
-            <img src={logo} alt="Logo" className="w-20 mx-auto mb-2" />
-            <h1 className="text-5xl font-playfair font-bold text-blue-950 mb-4">Odyssey'25</h1>
-            <h2 className="text-2xl font-playfair font-bold text-blue-950 mt-1">8-9th March</h2>
+            <div className="text-center z-10 flex-grow flex flex-col mb-16 justify-center">
+            <img src={logo} alt="Logo" className="mx-auto mb-2 top-0 w-40" />
+            <h1 className="text-5xl md:text-8xl font-bold text-blue-950 font-playfair">Odyssey'25</h1>
+            <h2 className="text-4xl md:text-5xl font-bold text-blue-950 mt-3 mb-15 font-playfair">8-9th March</h2>
           </div>
 
             <div className="absolute bottom-[40px] left-1/2 transform -translate-x-1/2 z-0 flex items-center space-x-4">
@@ -54,12 +48,12 @@ export default function Home() {
               className="w-[100px] md:w-[175px] max-w-none translate-y-24"
               style={{ animationDelay: "0.2s" }}
             /> */}
-            <img
+            {/* <img
               src={crown}
               alt="Crown Icon"
-              className="w-[200px] md:w-[310px] max-w-none mx-0 animate-slideFromBottom"
+              className="w-[250px] md:w-[330px] max-w-none mx-0 animate-slideFromBottom"
               
-            />
+            /> */}
             {/* <img
               src={avatar}
               alt="Right Avatar"
@@ -67,18 +61,20 @@ export default function Home() {
               style={{ animationDelay: "0.2s" }}
             /> */}
           </div>  
+
+          <Footer />
             
         </div>
 
-        {/* Footer */}
-        <Footer />
 
       </div>
+      <div className="overflow-x-hidden">
       <About />
-      <Venue />
-      <Try />
       <RegHome />
+      <Try />
+      <Venue />
       <Spons/>
+      </div>
     </>
   );
 }
