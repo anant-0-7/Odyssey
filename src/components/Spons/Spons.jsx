@@ -12,6 +12,7 @@ import krafton from "../../assets/krafton.png";
 import Imperial from "../../assets/imperial.png";
 import Farmley from "../../assets/farmley.png";
 import Poly from "../../assets/polymed.png";
+import Foundation from "../../assets/foundation.jpeg";
 
 export default function Spons() {
   return (
@@ -319,6 +320,23 @@ export default function Spons() {
           "
         >
           <img src={Poly} alt="Poly" style={{ objectFit: "cover" }} />
+        </div>
+        <div
+          className="
+            bg-white p-4
+            w-[150px]
+            h-[130px]
+            flex
+            items-center
+            justify-center
+            mb-4
+            sm:w-[180px]
+            sm:h-[160px]
+            md:w-[200px]
+            md:h-[180px]
+          "
+        >
+          <img src={Foundation} alt="Poly" style={{ objectFit: "cover" }} />
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@ import krafton from '../../assets/krafton.png';
 import Imperial from '../../assets/imperial.png';
 import Farmley from '../../assets/farmley.png';
 import Poly from '../../assets/polymed.png';
-
+import Foundation from '../../assets/foundation.jpeg';
 
 const data  = [
     {name: "Mankind consumer products pvt ltd", image: Mankind},
@@ -31,8 +31,8 @@ const data  = [
     {name: "Delhi Tourism", image: DTDC},
     {name: "KRAFTON",  image: krafton},
     {name: "Rajdhani Electricals",  image: Rajdhani},
-
-]
+    {name: "Fore School of Management",  image: Foundation},
+]   
 
 const Description = () => (
     <div className="py-16 text-center">
